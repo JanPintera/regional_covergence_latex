@@ -5,7 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{natbib}
 \usepackage{amsmath}
-\usepackage{graphicx}
+\usepackage{graphicx,subcaption}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \setcitestyle{authoryear,open={(},close={)}} %Citation-related commands
 
@@ -39,7 +39,7 @@
         \begin{large}Jan Pintera\end{large} \\\vspace{5mm} \begin{small} Institute of Economic Studies, Faculty of Social Sciences, Charles University,\\ Prague, Czech Republic\\
         Email (corresponding author): jan.pintera@fsv.cuni.cz \end{small}
 }
-\date{June 2022}
+\date{December 2022}
 \def \Keywords {Club Convergence, European Regions, log $t$ test, Logistic regression}
 
 \begin{document}
@@ -49,7 +49,7 @@
 
 \thispagestyle{empty}
 \begin{abstract}
-This paper provides a new look at convergence in the EU while focusing on development at the regional level between the Great Recession and the recent COVID crisis. It uses the log $t$ convergence test by \citet{phillips2007transition} to analyze the convergence in level of income among the European regions. Rather than supporting the convergence hypothesis, we identify five convergence clubs in which the regions converge in income growth rates. Furthermore, we investigated the determinants of convergence club membership using logistic regression. Our results confirm high inequality within the member states. We find an increasing prominence of the manufacturing core in southern Germany and the surrounding areas. We found a low impact of any of the estimated variables on membership in the highest club. However, we confirmed a positive association of membership in the higher clubs with research and patent activities and specialization in manufacturing. We also confirm the good economic performance of capital cities and main metropolitan areas.
+In this paper, we provide a new look at convergence in the EU while focusing on development at the regional level between the Great Recession and the recent COVID crisis. We use the log $t$ convergence test by \citet{phillips2007transition} to analyze the convergence in the level of income among the European regions. We identified five convergence clubs rather than supporting the overall convergence hypothesis. Furthermore, we investigated the determinants of convergence club membership using logistic regression. Our results confirmed high inequality within the member states and the EU as a whole, with the increasing prominence of the manufacturing core in southern Germany and the surrounding areas. We found a positive association between membership in higher clubs with research and patent activities and specialization in manufacturing. We also confirmed the good economic performance of capital cities and main metropolitan areas.
 
 \bigskip
 
@@ -66,15 +66,15 @@ This paper provides a new look at convergence in the EU while focusing on develo
 The gap between the prosperous and diverging regions has recently received attention from policymakers and economists. The topic now even has the potential to become an important part of a new economic paradigm that moves away from globalisation toward more equal sharing of resources and opportunities across different regions \citep{rodrik_2022}. This general shift can be seen as recognition of the deep socio-economic impact that regional differences have, including serious consequences for a political consensus. Convergence of the EU regions is also one of the goals of EU's cohesion policy. However, despite large transfers and long history of such policies, large differences in income persist and the speed and nature of convergence is changing over time \citep{eckey2007convergence,zarotiadis2013european, iammarino2019regional}.
 This paper contributes by providing evidence of income convergence across the regions of the European Union between the Great Recession and the Covid-related crisis.
 
-Previous empirical research has suggested several distinguishing features of convergence in the EU. It is often pointed out that economic development in large urban areas, and above all capital cities, is found to be significantly more dynamic than in the rest of the countries, leading to high economic inequality within the EU states \citep{geppert2008regional}. This seems to be especially valid for the new member states, with capital cities and main urban regions being already among the EU's richest regions by GDP per capita, while many other regions lag behind, and the overall discrepancy between the old and the new member states diminishes rather slowly. The implication is that internal inequality in the CEE countries is considered especially high \citep{geppert2008regional,sme2012regional, smketkowski2013regional}.
+Previous empirical research has suggested several distinguishing patterns of convergence in the EU. It is often pointed out that economic development in large urban areas, and above all capital cities, is found to be significantly more dynamic than in the rest of the countries, leading to high economic inequality within the EU states \citep{geppert2008regional}. This seems to be especially valid for the new member states, with capital cities and main urban regions being already among the EU's richest regions by GDP per capita, while many other regions lag behind, and the overall discrepancy between the old and the new member states diminishes rather slowly. The implication is that inequality within the CEE countries is considered especially high \citep{geppert2008regional,sme2012regional, smketkowski2013regional}.
 
 
-This work investigates the dynamics of regional income convergence with the main focus on finding out whether there is a convergence among all the EU countries or whether there is evidence of convergence clubs. The work uses a test by \citet{phillips2007transition}, which has been used to analyze convergence at various levels and, in the case of the EU regions, and usually led to the identification of several convergence clusters \citep{bartkowska2012regional, borsi2015evolution, von2017regional}. Its design is especially suited for investigation of club convergence that can be expected among EU regions. Furthermore, we employ the logistic regression on the resulting convergence clubs, examining the contribution of a wide range of variables suggested in the economic growth literature to the current state of convergence in the EU.
+This work investigates the dynamics of regional income convergence with the main focus on finding out whether there is a convergence among all the EU countries or whether there is evidence of convergence clubs, in which case certain regions converge to each other but without a tendency to overall convergence. The work uses a test by \citet{phillips2007transition}, which has been used to analyze convergence at various levels and, in the case of the EU regions, and usually led to the identification of several convergence clubs \citep{bartkowska2012regional, borsi2015evolution, von2017regional}. Its design is especially suited for the investigation of club convergence that can be expected among EU regions. Furthermore, we employ logistic regression on the resulting convergence clubs, examining the contribution of a wide range of variables suggested in the economic growth literature to the current state of convergence in the EU.
 
 % Topic of this thesis
-This work contribute to the existing literature in two ways. First, it will examine the economic convergence in the EU between two major crises (2008 - 2019). Second, it will attempt to draw a connection between various socio-economic characteristics of the EU regions and their relative economic performance.
+This work contributes to the existing literature in two ways. First, it will examine the economic convergence in the EU between two major crises (2008 - 2019). This period was previously not discussed in its entirety. Second, it attempts to draw a connection between various socio-economic characteristics of the EU regions and their relative economic performance.
 
-Our results imply the club convergence hypothesis rather than overall convergence among all regions. We compared results from 2015 with those from 2019, allowing us to compare the state of the European economy in two distinct states - after the protracted recession period after 2008 and just before the COVID crisis. We found that despite continuing dominance of cities, there is a shift from a large continuous area of top performing regions in the urbanized part of Western Europe (the "Blue Banana") to a Central European Manufacturing Core encompassing regions of both old and new EU member states and centered around southern Germany. We also found the worst-performing regions concentrated on both the Eastern and Southern peripheries.
+Our results imply the club convergence hypothesis rather than overall convergence among all regions. Next, we show that the convergence patterns evolved during the post-crisis recovery and the late 2010s expansion. Despite continuing dominance of large agglomerations, there is a shift from a large continuous area of top-performing regions in the urbanized part of Western Europe (the "Blue Banana") to a Central European Manufacturing Core encompassing regions of both old and new EU member states and centered around southern Germany. We also found the worst-performing regions concentrated on both the Eastern and Southern peripheries.
 
 
 The paper is structured as follows: Section 2 provides an overview of the methods used for convergence analysis. Section 3 describes the \citeauthor{phillips2007transition}'s test and convergence clubs formation procedure in detail. In Section 4, we discuss the test results and convergence clubs composition. Section 5 analyses the factors determining convergence club membership, and finally, section 6 provides conclusions and policy implications.  
@@ -175,10 +175,26 @@ As often noted (\citet{dall2008regional}, \citet{magrini2004regional}, \citet{an
 
 
 
-\section{Absolute convergence or convergence clubs?}
+\section{Results: Convergence versus Convergence Clubs}
 In this work, we analyzed 275 European NUTS 2 regions across the new and old member states of the EU. We used the log $t$ test by \citet{phillips2009economic}, described above. The test and the associated clustering procedure were applied to the log GDP per capita (in PPS) between years 2003 and 2019. The data were obtained primarily from "Regional statistics by NUTS classification" database on the Eurostat website.
 
-Applying the log $t$ test, the convergence among all the regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.1101417. We can therefore see that there is no overall convergence in the EU in the measured period.
+\begin{table}[!htbp] \centering 
+ \caption{Log $t$ test result for all regions} 
+  \label{Table_overall} 
+ \scalebox{0.85}{
+\begin{tabular}{@{\extracolsep{5pt}}cll} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
+\hline \\[-1.8ex] 
+277 &  -0.7577563  & -20.1101417 \\ 
+\hline \\[-1.8ex]
+%\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
+\end{tabular}
+}
+\end{table}
+
+Applying the log $t$ test (Equation \ref{eq10}), the convergence among all the regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.1101417, as visible in Table \ref{Table_overall}. We can therefore see that there is no overall convergence in the EU in the measured period.
 
 Then, we tested for the club convergence. Following the \citeauthor{phillips2007transition}'s clustering procedure, we initially obtained 7 convergence clubs and one diverging region - Inner London – West. As suggested by \citet{bartkowska2012regional}, we subsequently tried to merge the adjoining groups together and tested whether they converge. This process resulted in five convergence clubs with the third and forth clubs merged into a new club. Tables \ref{Table_clubs1} and \ref{Table_clubs2} show results of the procedure after and before merging.
 % Compare with previous results
@@ -226,7 +242,7 @@ We also plotted the convergence behaviour using relative transition coefficient 
 \end{figure}
 
 
-Figure \ref{clubs_graphic} presents the geographic composition of the convergence clubs in Europe. The capital regions tend to be part of the highest clubs. This also includes the Eastern periphery, and the only exception seems to be the South with the major cities belonging to Club 3.\footnote{Complete list of the convergence clubs is available in the Appendix.} The capitals are also very often surrounded by regions belonging to, sometimes much, lower clubs. The most prominent example of this is the Paris region. Such a tendency appears in many old and new member states. There is also evident the previously suggested tendency of regions from the same club to cluster together, as demonstrated by the presence of continuous bright colored areas versus darker blue areas in the Figure \ref{clubs_graphic}.\footnote{Note, that there is also an outlying region (Inner London - West) included, forming the "Club 0"} The clusters are not nationally bounded but seem to have an interstate nature (see the cluster of Club 3 regions spanning from the Czech republic to southeastern France or the group of low-performing areas on the Eastern border).
+Figure \ref{clubs_graphic} presents the geographic composition of the convergence clubs in Europe. Focusing on results till 2019 first (Figure \ref{clubs_graphic}\subref{clubs_graphic_2019}), we can see that the capital regions tend to be part of the highest clubs. This also includes the Eastern periphery, and the only exception seems to be the South with the major cities belonging to Club 3.\footnote{Complete list of the convergence clubs is available in the Appendix.} The capitals are also very often surrounded by regions belonging to, sometimes much, lower clubs. The most prominent example of this is the Paris region. Such a tendency appears in many old and new member states. There is also evident the previously suggested tendency of regions from the same club to cluster together, as demonstrated by the presence of continuous bright colored areas versus darker blue areas in the Figure \ref{clubs_graphic}.\footnote{Note, that there is also an outlying region (Inner London - West) included, forming the "Club 0"} The clusters are not nationally bounded but seem to have an interstate nature (see the cluster of Club 3 regions spanning from the Czech republic to southeastern France or the group of low-performing areas on the Eastern border).
 
 
 The dominant position of the capital cities confirms previous findings about convergence clubs made by \citet{sme2012regional} and \citet{bartkowska2012regional}. However, our results do not support the country effect in the form of regions belonging to the same country tending to cluster together, as \citet{bartkowska2012regional} found for the old EU members in 2005. Instead, we frequently see the entire range of clubs inside a single country. We can see this phenomenon in eastern countries such as Poland or Romania. However,
@@ -234,21 +250,33 @@ even Western Europe is not spared of this phenomenon (France or the UK can serve
 
 
 \begin{figure}%
-\centering 
-  {\includegraphics[scale = 0.6]{convergence_clubs2019.png} }
-  \caption{Convergence clubs and diverging regions (2019)}
+\centering
+\begin{subfigure}[c]{0.75\linewidth}
+  {
+  \includegraphics[width=\linewidth]{convergence_clubs2019.png}
+    \caption{2019}
+    \label{clubs_graphic_2019}
+  }
+\end{subfigure}
+\qquad
+\begin{subfigure}[c]{0.75\linewidth}
+  \includegraphics[width=\linewidth]{map_4062.jpeg}
+  \caption{2015}
+  \label{clubs_graphic_2015}
+\end{subfigure}
+  \caption{Comparison of convergence clubs and diverging regions in 2015 and 2019}
 \label{clubs_graphic}
 \end{figure} 
 
 
 % NOTE: Update on the Blue Banana paragraph
-In this work, we compare convergence in two periods, distinguished by the final year used in the \citeauthor{phillips2007transition}'s test. The first period ends in 2015; the second uses data until 2019.\footnote{see Figure \ref{clubs_graphic_2015} in the Appendix.} This allows us to compare two important states of the European economy. 2015 was the year by which most of the European countries reached the final recovery after the Great Recession in terms of output per capita. The year 2019, however, represents a point after a consistent growth period and just before the COVID outbreak.
+In Figure \ref{clubs_graphic} we compare convergence in two periods, distinguished by the final year used in the \citeauthor{phillips2007transition}'s test. The first period ends in 2015 (Fig. \ref{clubs_graphic}\subref{clubs_graphic_2015}); the second uses data until 2019 \ref{clubs_graphic}\subref{clubs_graphic_2019}. This allows us to compare two important states of the European economy. 2015 was the year by which most of the European countries reached the final recovery after the Great Recession in terms of output per capita. The year 2019, however, represents a point after a consistent growth period and just before the COVID outbreak.
 Comparing the two sets of results, we can notice a stronger concentration of high convergence clubs around Southern Germany combined with a loss of relative economic dynamic in Northern Italy and, to a certain extent, in the Benelux. This seems to be in line with the "Manufacturing core" hypothesis \citep{cutrini2019economic, stollinger2016structural}, pointing out the importance of manufacturing-oriented areas in Central Europe. On the other hand, the so-called "Blue banana," a large urbanization corridor in Western Europe \citep{hospers2002beyond}, visible until 2015, disappears when the time span is prolonged to 2019. The top club membership can thus be characterized by Southern Germany and capitals/major urban areas.
 
 It is worth noting that the difference between the old and the new members in their club membership does not seem very strict, with large parts of rural France and Poland belonging to the same club. Moreover, the top convergence club is becoming more exclusive, with the number of regions falling from 15 to 10 - this points to uneven economic development in Europe before the COVID pandemic.
 
 At the same time, there are many CEE capitals in the two highest clubs, which leads us to conclusion that we do not see much evidence for the new-old division, as suggested in the previous research \citep{eckey2007convergence}.
-On the other hand, there is a visible concentration of Club 4 and 5 regions along the Eastern border of the EU. Moreover, compared to the 2015 results, where the concentration of the lowest clubs is clearly the highest in the southern part of the EU (Table \ref{clubs_graphic_2015}), their relative performance appears to be deteriorating. We, therefore, cannot confirm any east-west (old-new) general convergence and rather side with a broadly defined centre-periphery division, with the "centre" being defined on the one hand by the financial and administrative urban centres and on the other by the EU's manufacturing core concentrated around Southern Germany.
+On the other hand, there is a visible concentration of Club 4 and 5 regions along the Eastern border of the EU. Moreover, compared to the 2015 results, where the concentration of the lowest clubs is clearly the highest in the southern part of the EU (Figure \ref{clubs_graphic}\subref{clubs_graphic_2015}), their relative performance appears to be deteriorating. We, therefore, cannot confirm any east-west (old-new) general convergence and rather side with a broadly defined centre-periphery division, with the "centre" being defined on the one hand by the financial and administrative urban centres and on the other by the EU's manufacturing core concentrated around Southern Germany.
 
 
 
@@ -297,13 +325,15 @@ Governance Quality & measured by European Quality of Government Index (EQI) betw
 
 We used several explanatory variables for our analysis. We again worked with Eurostat data ("Regional statistics by NUTS classification"). Since we focused on post-crisis development and wanted to investigate the role of sectoral composition, we used the data from 2008 to 2019 in the logistic regression instead of the 2003 - 2019 period used for the convergence analysis. This is partly due to limited availability of the older data for the new member states as well as changes in the Eurostat definition of Business services as discussed below, but it also allows us to concentrate on the EU's development between two distinct crises (the Great Recession of 2008 and 2009 and the COVID crisis). The choice of these variables follows New Economic Geography (NEG) and New Growth Theory (NGT), as well as previous research papers such as \citet{mora2008factors} or \citet{bartkowska2012regional}. Table \ref{var_legend} presents an overview of the variables with their names as they appear in the regression results below.
 
-In line with the literature, we included variables measuring the level of initial economic specialization in the most of the NACE Rev.2 classification sectors. \footnote{Some of the sectors were omitted due to large number of missing observations, such as the Real Estate activities.} We defined the specialisation as the share of the population employed in given sector over the overall employment in the year 2008. We worked with 6 sectors spanning from Industry to Financial Services, as defined by NACE classification of economic activity, and the Business services. Following \citet{guastella2015knowledge} we defined specialization in Business Services as share of workers employed in BS in total employed population. This work use the definition of the Business services given by regulation of the European Parliament No. 298/2008. This regulation defines Business services as consisting of five divisions and three groups of NACE Rev. 2 classification (divisions 62, 69, 71, 73 and 78 and groups 58.2, 63.1 and 70.2). The data are not available in such detail in the Eurostat database for the Business services, therefore whole divisions (58, 63 and 70) are used as reasonable approximations for the respective groups.
+In line with the literature, we included variables measuring the level of initial economic specialization in the most of the NACE Rev.2 classification sectors.\footnote{Some of the sectors were omitted due to large number of missing observations, such as the Real Estate activities.} We defined the specialisation as the share of the population employed in given sector over the overall employment in the year 2008. We worked with six sectors spanning from Industry to Financial Services, as defined by NACE classification of economic activity, and the Business services. Business services are dynamically developing subsector of the economy, shown by the previous research as potentially highly innovations and and productivity promoting \citep{corrocher2014kibs}. Following \citet{guastella2015knowledge} we defined specialization in Business Services as share of workers employed in BS in total employed population. This work use the definition of the Business services given by regulation of the European Parliament No. 298/2008. This regulation defines Business services as consisting of five divisions and three groups of NACE Rev. 2 classification (divisions 62, 69, 71, 73 and 78 and groups 58.2, 63.1 and 70.2). The data are not available in such detail in the Eurostat database for the Business services, therefore whole divisions (58, 63 and 70) are used as reasonable approximations for the respective groups.
 
 We also added the log of initial (2008) GDP and Gross Fixed Capital Formation as measures of initial economic conditions. We find these variables in line with the neoclassical growth theory \cite{iammarino2017regional}.% maybe see Cutrini or Iammarino's Solow comment
 
-Apart from the variable measuring sectoral specialization mentioned above, we also included variables measuring human capital developments in the regions. The variable choice should be in line with the New Economic Geography \citep{iammarino2017regional}. We experimented with several variables measuring regional innovation level. We used percentage of the population with tertiary education and the share of scientists in the active population as measures of regional population skills sophistication. We also included the average number of patent applications to the European Patent Organization per million inhabitants. As noted in Table \ref{var_legend}, we also decided to use the Regional Innovation Index issued by the European Commission and the European Quality of Government Index (EQI) with an assumption that better governed regions should be attractive for both business and workers and therefore be able to perform better in all aspects of economic life.
+Apart from the variable measuring sectoral specialization mentioned above, we also included variables measuring human capital developments in the regions. Furthermore, we experimented with several variables measuring regional innovation level. We used percentage of the population with tertiary education and the share of scientists in the active population as measures of regional population skills sophistication. We also included the average number of patent applications to the European Patent Organization per million inhabitants. 
 
-Inspired by NEG's emphasis on agglomeration economies as key drivers of growth but also drivers of territorial divergence. The two main equalizing counter-factors should then be knowledge spillovers and within-country migration  \citep{iammarino2017regional}. We, therefore, included dummies measuring the level of regional urbanization as well as indicating capital cities. As an alternative, we utilize the Eustostat's distinction between urban, rural and intermediate areas.
+As noted in Table \ref{var_legend}, we also decided to use the Regional Innovation Index issued by the European Commission and the European Quality of Government Index (EQI) with an assumption that better governed regions should be attractive for both business and workers and therefore be able to perform better in all aspects of economic life.
+
+Inspired by New Economic Geography's emphasis on agglomeration economies as key drivers of growth but also drivers of territorial divergence. The two main equalizing counter-factors should then be knowledge spillovers and within-country migration  \citep{iammarino2017regional}. We, therefore, included dummies measuring the level of regional urbanization as well as indicating capital cities. %As an alternative, we utilize Eustostat's distinction between urban, rural and intermediate areas.
 
 \subsection{Regression Results}
 
@@ -340,13 +370,13 @@ Governance Quality & $0.000$ & $0.002$ & $0.028$ & $ $-$0.016$ & $ $-$0.014$ \\
 \end{table} 
 
 
-We estimated various specifications of our model (including variable normalization, using weights and different sets of controls). The regression results obtained for the specifications show that the estimated coefficients and their significance somewhat differ, but in most cases, we can reach similar qualitative conclusions. We, therefore, report the results for the model working with a set of the best-performing variables (in Table \ref{famd_selected_marginal}), other versions can be found in the Appendix.\footnote{Table \ref{famd_selected_marginal} uses Factorial Analysis for Mixed Data (FAMD) as an imputation method to deal with the missing observations.} Standard regression outputs are also reported in the Appendix for brevity. Marginal effects are calculated at the means of the independent variables and show the impact of one unit change in an explanatory variable on the probability that a certain region will enter particular club \citep{carrolloglmx}.
+Table \ref{famd_selected_marginal} shows the impact of the explanatory variables discussed in the previous section on the probability of membership in a given convergence club, tested via the logistic regression. We were interested in the impact of the initial conditions on future economic performance. Therefore, the 2008 values of the variables listed were used.\footnote{Table \ref{famd_selected_marginal} uses Factorial Analysis for Mixed Data (FAMD) as an imputation method to deal with the missing observations.} Standard regression outputs are also reported in the Appendix for brevity. Marginal effects are calculated at the means of the independent variables and show the impact of one unit change in an explanatory variable on the probability that a certain region will enter particular club \citep{carrolloglmx}.
 
 Our work can be compared to previous ones such as \citet{cutrini2019economic}, \citet{von2017regional} and \citet{bartkowska2012regional}, and contributes to a discussion between initial GDP levels and sectoral specialization as primary determinants of economic destiny. Compared to \citet{cutrini2019economic}, who concentrates on a similar exercise on the initial specialization levels, we focus more on variables linked to NEG, such as agglomeration effects, innovation activity or regional governance quality. Our choice of the time period (2008 - 2019) also allows us to concentrate on the development between the two crises. Last but not least, we consider the impact of changes in the observed variables. 
 
 As can be seen in Table \ref{famd_selected_marginal}, the initial income per capita does have a significant effect on Club membership, with higher initial GDP per capita in 2008 increasing the probability of being in the highest convergence clubs in 2019. Suggesting a certain level of inertia in the economic development.
  
-On the other hand, we can see a positive impact of the structural specialization variables as suggested by \citet{cutrini2019economic}. Especially strong seems to be the impact the specialization in Industry\footnote{Composed primarily of Manufacturing but also encompassing NACE Sections B, E, F (Mining, Electricity, gas, steam and air conditioning supply and Water supply) besides Manufacturing (NACE Section C) itself, which however plays a dominant role in the category.} and Finance and Insurance Services. We should note that the last mentioned variable - concentration of Financial Services, is the most important predictor of Club 1 membership among the variables measuring sectoral specialization. However, when we add control for capital cities, as visible in Table \ref{famd_selected_marginal}, it loses significance. The key factor for membership in the first two clubs thus becomes the specialization in Manufacturing which is positive and significant across the specifications. This seems to be in line with two specific trends visible in present-day Europe - the first is the importance and emergence of the "Manufacturing Core" in its central part, and the second is the key role of the urban financial centres. Concentration in financial services seems, however, to overlap with the incidence of capital cities, putting their importance into question, speaking for the importance of agglomeration effects as suggested by NEG.
+On the other hand, we can see a positive impact of the structural specialization variables as suggested by \citet{cutrini2019economic}. Especially strong seems to be the impact the specialization in Industry\footnote{Composed primarily of Manufacturing but also encompassing NACE Sections B, E, F (Mining, Electricity, gas, steam and air conditioning supply and Water supply) besides Manufacturing (NACE Section C) itself, which however plays a dominant role in the category.} and Finance and Insurance Services. We should note that the last mentioned variable - concentration of Financial Services, is the most important predictor of Club 1 membership among the variables measuring sectoral specialization. However, when we add control for capital cities, as visible in Table \ref{famd_selected_marginal}, it loses significance. The key factor for membership in the first two clubs thus becomes the specialization in Manufacturing which is positive and significant across the specifications. This seems to be in line with two specific trends visible in present-day Europe - the first is the importance and emergence of the "Manufacturing Core" in its central part, and the second is the key role of the urban financial centres. Concentration in financial services seems, however, to overlap with the incidence of capital cities, putting their importance into question, speaking for the importance of agglomeration effects as suggested by New Economic Geography.
 We can also note the negative impact of various services, including entertainment and recreation, on the probability of higher club membership. This could be a result of strong tourism dependence on the southern EU periphery. However, the marginal effects are never significant for this variable. In contrast, specialisation in business services has a positive impact on the probability of entering the highest clubs, yet again is not significant (with a significance level of 0.02).
 
 In terms of other variables, we can see the clear positive impact of metropolitan areas and especially capital cities which seem to be a strong predictor of high club membership. The highest club is indeed primarily composed of capital cities (6 of 10 regions in Club 1 contain a capital city). Despite that, the marginal effect of the dummy variable representing regions with capital cities on the membership in the highest club is not significant.
@@ -354,57 +384,57 @@ In terms of other variables, we can see the clear positive impact of metropolita
 We can also see a strong effect of the variables connected with research activity, such as the share of scientists and patent activity.\footnote{As the research activity variables, including the Regional Innovation Index, are highly correlated, Table \ref{famd_selected_marginal} shows only the share of the scientists, which turned out to be the most impactful variable, other results are available upon request.} The initial share of scientists turns out to be the variable with the biggest impact on the probability of entering the First Club in Table \ref{famd_selected_marginal}.
 On the other hand, the share of the tertiary educated in the population is mostly insignificant for higher clubs. Its marginal effects also give rather counter-intuitive results with a positive association with the lower clubs. One of the possible interpretations of these results could be the importance of applied research capable of producing practical innovations that benefit the regional business ecosystem. We also tested the impact of the Quality of Governance index, yet it turned out to be insignificant.
 
-We do not find robust evidence for the remaining variables. However, the results suggest that regional economic well-being is determined by a combination of initial sectoral specialization and its ability to support research activities and invest in its innovation environment. This, in general, confirms the result of the analysis for data until 2015 (As investigated in a previous working paper \citep{pintera2021regional}). Specific category then seem to be the large metropolitan areas, and the capitals in particular, with their strong position in finance. Our results show the importance of Industrial concentration, we can also note that this variable seems to be more important than the initial level of economic development. But we also propose a knowledge-based economy as a way to economic prosperity.
-Interesting is also the positive impact of specialization in agriculture. 
+We do not find robust evidence for the remaining variables. However, the results suggest that regional economic well-being is determined by a combination of initial sectoral specialization and its ability to support research activities and invest in its innovation environment. This holds also with the data until 2015 (as shown in the Appendix). Specific category then seem to be the large metropolitan areas, and the capitals in particular, with their strong position in finance. Our results show the importance of Industrial concentration, we can also note that this variable seems to be more important than the initial level of economic development. Similarly, variables related to the development of the knowledge-based economy lead to higher club membership. Interesting is also the positive impact of specialization in agriculture. 
 
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: so, čvc 09, 2022 - 19:38:29
 \begin{table}[!htbp] \centering
 \resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{Marginal effects: Logistic regression with merged Clubs and FAMD imputation. Using changes between 2009 and 2019 in the listed variables.} 
+  \caption{Marginal effects: Logistic regression with merged Clubs and FAMD imputation. Using changes between 2008 and 2019 in the listed variables.} 
   \label{famd_delta_marginal} 
 \begin{tabular}{@{\extracolsep{5pt}} cccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
  & effect.1 & effect.2 & effect.3 & effect.4 & effect.5 \\ 
 \hline \\[-1.8ex] 
-GFCF (logs) & $0.025$$^{***}$ & $0.125$$^{***}$ & $0.553$$^{***}$ & $ $-$0.249$$^{***}$ &  $ $-$0.454$$^{***}$ \\ 
-Spec. Agriculture  & $0.085$ & $0.426$ & $1.885$ & $ $-$0.849$ & $ $-$1.547$ \\ 
-Spec. Finances& $ $-$0.113$ & $ $-$0.562$ & $ $-$2.487$ & $1.120$ & $2.042$ \\ 
-Spec. Industry & $ $-$0.022$ & $ $-$0.108$ & $ $-$0.477$ & $0.215$ & $0.392$ \\ 
-Spec. Trade, Accommodation & $0.127$$^{*}$ & $0.631$$^{**}$ & $2.792$$^{**}$ & $ $-$1.258$$^{**}$ & $ $-$2.293$$^{***}$ \\ 
-Spec. Real Estate & $ $-$0.367$ & $ $-$1.832$ & $ $-$8.101$ & $3.649$ & $6.651$ \\ 
-Spec. Other Services & $ $-$0.031$ & $ $-$0.157$ & $ $-$0.693$ & $0.312$ & $0.569$ \\ 
-Business Services & $ $-$0.022$ & $ $-$0.109$ & $ $-$0.482$ & $0.217$ & $0.396$ \\ 
-Share of Scientists & $1.547$$^{**}$ & $7.714$$^{***}$ & $34.113$$^{***}$ & $ $-$15.366$$^{***}$ & $ $-$28.008$$^{***}$ \\ 
-Tertiary Edu. Share & $0.089$$^{**}$ & $0.444$$^{***}$ & $1.963$$^{***}$ & $ $-$0.884$$^{***}$ & $ $-$1.612$$^{***}$ \\ 
-Capital & $0.011$ & $0.053$$^{*}$ & $0.144$$^{**}$ & $ $-$0.089$$^{**}$ & $ $-$0.120$$^{***}$ \\ 
-Metro area & $0.001$ & $0.005$ & $0.022$ & $ $-$0.010$ & $ $-$0.018$ \\ 
-Governance Quality & $ $-$0.001$ & $ $-$0.006$ & $ $-$0.026$ & $0.012$ & $0.021$ \\ 
+\(\Delta\) GFCF (logs) & $0.025$$^{***}$ & $0.125$$^{***}$ & $0.553$$^{***}$ & $ $-$0.249$$^{***}$ &  $ $-$0.454$$^{***}$ \\ 
+\(\Delta\) Spec. Agriculture  & $0.085$ & $0.426$ & $1.885$ & $ $-$0.849$ & $ $-$1.547$ \\ 
+\(\Delta\) Spec. Finances& $ $-$0.113$ & $ $-$0.562$ & $ $-$2.487$ & $1.120$ & $2.042$ \\ 
+\(\Delta\) Spec. Industry & $ $-$0.022$ & $ $-$0.108$ & $ $-$0.477$ & $0.215$ & $0.392$ \\ 
+\(\Delta\) Spec. Trade, Accommodation & $0.127$$^{*}$ & $0.631$$^{**}$ & $2.792$$^{**}$ & $ $-$1.258$$^{**}$ & $ $-$2.293$$^{***}$ \\ 
+\(\Delta\) Spec. Real Estate & $ $-$0.367$ & $ $-$1.832$ & $ $-$8.101$ & $3.649$ & $6.651$ \\ 
+\(\Delta\) Spec. Other Services & $ $-$0.031$ & $ $-$0.157$ & $ $-$0.693$ & $0.312$ & $0.569$ \\ 
+\(\Delta\) Business Services & $ $-$0.022$ & $ $-$0.109$ & $ $-$0.482$ & $0.217$ & $0.396$ \\ 
+\(\Delta\) Share of Scientists & $1.547$$^{**}$ & $7.714$$^{***}$ & $34.113$$^{***}$ & $ $-$15.366$$^{***}$ & $ $-$28.008$$^{***}$ \\ 
+\(\Delta\) Tertiary Edu. Share & $0.089$$^{**}$ & $0.444$$^{***}$ & $1.963$$^{***}$ & $ $-$0.884$$^{***}$ & $ $-$1.612$$^{***}$ \\ 
+\(\Delta\) Capital & $0.011$ & $0.053$$^{*}$ & $0.144$$^{**}$ & $ $-$0.089$$^{**}$ & $ $-$0.120$$^{***}$ \\ 
+\(\Delta\) Metro area & $0.001$ & $0.005$ & $0.022$ & $ $-$0.010$ & $ $-$0.018$ \\ 
+\(\Delta\) Governance Quality & $ $-$0.001$ & $ $-$0.006$ & $ $-$0.026$ & $0.012$ & $0.021$ \\ 
 \hline \\[-1.8ex]
 \textit{Significance levels:}  & \multicolumn{5}{l}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
 \end{tabular}
 \end{minipage}}
 \end{table} 
 
-As a robustness check for the results above, we work with changes in the variables mentioned above between 2008 and 2019. We see rather contrasting results. Table \ref{famd_delta_marginal} shows that changes in specialization have an insignificant effect on club membership, whereas regions further specializing in R\&D increased their chance of moving to the highest clubs. This confirms the general conclusions outlined earlier.
+Table \ref{famd_delta_marginal} shows changes in the variables mentioned above between 2008 and 2019. We can see that changes in specialization have an insignificant effect on club membership, whereas regions further specializing in R\&D increased their chance of moving to the highest clubs. This shows that sectoral specialization is not sufficient on its own and has to be accompanied by a shift toward higher value-added products.
 
 \section{Conclusion}
 
 This work investigated the regional convergence in the European Union between the Great Recession and the Covid crisis of 2019. We applied a convergence test developed by \citet{phillips2009economic}, which allows us to distinguish between several versions of convergence. This methodology recognizes absolute as well as club convergence and also distinguishes income level convergence from relative (growth) convergence.
 
-The \citeauthor{phillips2009economic}'s test rejected the hypothesis of an overall convergence among the EU regions. We, therefore, continued our analysis searching for potential convergence clubs. Our final results gave us five distinct clubs converging in income growth rates instead of income level. Examining the composition of these clubs, we found significant disparities in the club membership inside many countries, which suggests high economic inequality, clearly visible in the capital-periphery contrast, as the capital cities are typically converging to the highest clubs in both the old and the new countries of the EU. Furthermore, we found a high concentration of regions belonging to the two highest clubs around southern Germany. This implies shrinkage of the area of top economic performance compared to 2015 when the top clubs were concentrated in a continuous area from northern Italy to the Benelux. The finding thus seems to be more in line the with "Manufacturing core" hypothesis, combined with the continuous dominance of major urban areas. We can also see a significant concentration of the regions from the lowest clubs in the Southern periphery of the EU and also at its Eastern border.
+The \citeauthor{phillips2009economic}'s test rejected the hypothesis of an overall convergence among the EU regions. We, therefore, continued our analysis searching for potential convergence clubs. Our final results gave us five distinct clubs converging in income growth rates instead of income level. Examining the composition of these clubs, we found significant disparities in club membership in many countries, which implies high within-country inequality. The highest club consists predominantly of the capital cities, both from the old and the new countries of the EU, reflecting the capital vs. periphery contrast. Furthermore, we found a high concentration of regions belonging to the two highest clubs around southern Germany. This implies shrinkage of the area of top economic performance compared to 2015 when the top clubs were concentrated in a continuous area from northern Italy to the Benelux. The finding thus seems to be more in line the with "Manufacturing core" hypothesis, combined with the continuous dominance of major urban areas. We can also see a significant concentration of the regions from the lowest clubs in the Southern periphery of the EU and also at its Eastern border. We, therefore, consider the Centre-Periphery division the most prominent phenomenon in the EU.
 
-The result of this analysis was then used as a dependent variable in logistic regression, employed for the investigation of key determinants of regional economic performance. Our choice of variables was inspired by the New Economic Geography and New Growth Theory and extracted from Eurostat. We also included Business services - a group of service activities ranging from legal consultancy to R\&D services, found in previous research to play an important role in innovation and knowledge diffusion.
+The results of this analysis were then used as a dependent variable in logistic regression, employed for the investigation of key determinants of regional economic performance. Our choice of variables was inspired by the New Economic Geography and New Growth Theory.
 
 
-Interestingly, we did not find a substantial difference between the new and the old members regarding their convergence pattern. While the top clubs' membership is limited to the capital cities in the CEE countries, a similar phenomenon is visible among the old members. Also, as already mentioned, the lowest clubs are concentrated on both the Southern and the Eastern periphery. We ,therefore, consider the Centre-Periphery division the most prominent phenomenon in the EU.
+Interestingly, we did not find a substantial difference between the new and the old members regarding their convergence pattern.
 
-The regression results show the low impact of any of the estimated variables on membership in the highest club. Despite the significant positive effect of initial per capita income, the key determinant of the club membership seems to be sectoral specialization variables, especially Manufacturing and Financial Services. Significance of the former variables confirms the Manufacturing Core hypothesis. We also find a significant positive association between membership in higher clubs and research and innovation activities. This possibly suggests focusing on applied research and innovation as a way to higher economic performance. Moreover, we confirmed an expected positive impact of capital cities but not of metropolitan areas in general, supporting the centre-periphery division. At the same time, our results did not confirm an expected positive impact of the Business services.
+
+The regression results show that the upward economic mobility among the EU regions is driven by a combination of Financial Services, Manufacturing, research, and innovation. Nevertheless, none of these variables are really significant for the highest club that is dominated by a group of capital cities and major agglomerations.
  
  
-Bringing our results together, we see further confirmation of the center-periphery division in the EU. Mainly in its "capitals versus the rest" form. On the other hand, our results also contrast with the results until 2015, suggesting the validity of the Manufacturing Core hypothesis instead of the "Blue Banana" hypothesis, giving more weight to the impact of sectoral specialization. Despite the changes in the club composition, we consistently confirm the significance of regional research as a success factor. We also confirm the importance of sectoral specialization in economic success.
+Bringing our results together, we see further confirmation of the center-periphery division in the EU, mainly in its "capitals versus the rest" form. We also see the top convergence clubs becoming more exclusive between 2015 and 2019 - shrinking to an area around Southern Germany, suggesting the validity of the Manufacturing Core hypothesis instead of the "Blue Banana" hypothesis. These changes also give more weight to the impact of sectoral specialization. Despite the changes in the club composition, we consistently confirm the significance of regional research as a success factor. We also confirm the importance of sectoral specialization in economic success.
 
 
 
@@ -446,7 +476,7 @@ Bringing our results together, we see further confirmation of the center-periphe
 
 %\end{itemize}
 
-
+\subsection{Club membership (2019)}
 \begin{itemize}
 \item Club 1:\\
 Région de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest, Praha, Hovedstaden, Oberbayern, Hamburg, Southern, Eastern and Midland, Île de France, Luxembourg, Bucuresti - Ilfov
@@ -468,12 +498,32 @@ Prov. Hainaut, Prov. Luxembourg (BE), Severozapaden, Severen tsentralen, Severoi
 
 \end{itemize}
 
-\begin{figure}%
-\centering 
-  {\includegraphics[scale = 0.65]{map_4062.jpeg} }
-  \caption{Convergence clubs and diverging regions (2015)}
-  \label{clubs_graphic_2015}
-  \end{figure}  
+
+\subsection{Club membership (2015)}
+\begin{itemize}
+\item Club 1:\\
+Wien, Salzburg, Région de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest, Praha, Stuttgart, Oberbayern, Hamburg, Darmstadt, Hovedstaden, Helsinki-Uusimaa, Île de France, Groningen, Noord-Holland, Bucuresti - Ilfov, Stockholm, Bratislavský kraj, Inner London - East 
+\item Club 2:\\
+Oberösterreich, Tirol, Vorarlberg, Prov. Antwerpen \& Vlaams-Brabant, Prov. Brabant Wallon, Kypros, Karlsruhe, Freiburg, Tübingen, Niederbayern, Oberpfalz, Oberfranken, Mittelfranken, Unterfranken, 
+Schwaben, Berlin, Bremen, Braunschweig, Düsseldorf, Köln, Rheinhessen-Pfalz, Southern and Eastern, Valle d'Aosta/Vallée d'Aoste, Lombardia, Provincia Autonoma di Bolzano/Bozen, Provincia Autonoma di Trento, Emilia-Romagna, Utrecht, Zuid-Holland, Noord-Brabant, Mazowieckie, Berkshire, Buckinghamshire and Oxfordshire, North Eastern Scotland 
+\item Club 3: \\
+Burgenland (AT), Niederösterreich, Kärnten, Steiermark,
+Prov. Limburg (BE), Prov. Oost-Vlaanderen, Prov. West-Vlaanderen, Yugozapaden, Jihovýchod, Brandenburg, Gießen, Kassel, Mecklenburg-Vorpommern, Hannover, Lüneburg, Weser-Ems, Münster, Detmold, Arnsberg, Koblenz, Trier, Saarland, Dresden, Chemnitz, Leipzig,        Sachsen-Anhalt, Schleswig-Holstein, Thüringen, Syddanmark, Midtjylland, Eesti, Attiki, Notio Aigaio, País Vasco, Comunidad Foral de Navarra, Aragón, Comunidad de Madrid, Cataluña, Canarias (ES), Länsi-Suomi, Etelä-Suomi, Alsace, Pays de la Loire, Midi-Pyrénées, Rhône-Alpes,      Provence-Alpes-Côte d'Azur, Corse, Közép-Magyarország, Piemonte, Liguria, Veneto, Friuli-Venezia Giulia, Toscana, Marche, Lazio, Lietuva, Friesland (NL), Overijssel, Gelderland, Flevoland, Zeeland, Limburg (NL), Lódzkie, Slaskie, Wielkopolskie, Dolnoslaskie, Pomorskie, Área Metropolitana de Lisboa, Centru, Sud-Est, Vest, Östra Mellansverige, Småland med öarna, Sydsverige, Västsverige, Norra Mellansverige, Mellersta Norrland, Övre Norrland, Zahodna Slovenija, Západné Slovensko, Cumbria, Cheshire (NUTS 2006), East Anglia, Bedfordshire and Hertfordshire, Outer London - West and North West, Surrey, East and West Sussex, Hampshire and Isle of Wight, Gloucestershire, Wiltshire and Bristol/Bath area 
+\item Club 4: \\
+ Prov. Liège, Střední Čechy, Jihozápad, Severozápad, Severovýchod, Střední Morava, Moravskoslezsko, Voreio Aigaio, Kriti, Galicia, Principado de Asturias, Cantabria, La Rioja, Castilla y León,                    Comunidad Valenciana, Illes Balears, Región de Murcia, Champagne-Ardenne, Picardie, Haute-Normandie, Centre (FR), Basse-Normandie,  Bourgogne, Lorraine, Franche-Comté, Bretagne, Poitou-Charentes, Aquitaine,          Limousin, Auvergne, Languedoc-Roussillon, Közép-Dunántúl, Nyugat-Dunántúl, Border, Midland and Western, Abruzzo,                Molise, Basilicata, Sardegna, Umbria, Latvija, Drenthe,                 Malopolskie, Lubelskie, Swietokrzyskie, Podlaskie,                  Zachodniopomorskie, Lubuskie, Opolskie, Kujawsko-Pomorskie, Centro (PT), Nord-Vest, Sud - Muntenia, Sud-Vest Oltenia, Vzhodna Slovenija, Stredné Slovensko, Východné Slovensko, Tees Valley and Durham, Northumberland and Tyne and Wear,  Greater Manchester, Lancashire, Merseyside, East Yorkshire and Northern Lincolnshire, North Yorkshire, South Yorkshire,  West Yorkshire, Derbyshire and Nottinghamshire, Leicestershire, Rutland and Northamptonshire, Lincolnshire, Herefordshire, Worcestershire and Warwickshire, Shropshire and Staffordshire, West Midlands, Essex, Outer London - East and North East, Outer London - South, Kent, Dorset and Somerset, Cornwall and Isles of Scilly, Devon, East Wales, Eastern Scotland, South Western Scotland, Highlands and Islands, Northern Ireland (UK)
+\item Club 5:\\
+Severozapaden, Severen tsentralen, Severoiztochen, Yugoiztochen, Yuzhen tsentralen, Kentriki Makedonia, Castilla-la Mancha, Extremadura, Andalucía, Dél-Dunántúl, Észak-Magyarország, Észak-Alföld, Dél-Alföld, Campania, Puglia, Calabria, Sicilia, Podkarpackie, Warminsko-Mazurskie, Norte, Nord-Est, West Wales and The Valleys
+
+\end{itemize}
+
+
+
+%\begin{figure}%
+%\centering 
+%  {\includegraphics[scale = 0.65]{map_4062.jpeg} }
+%  \caption{Convergence clubs and diverging regions (2015)}
+%  \label{clubs_graphic_2015}
+%  \end{figure}  
   
   
 
@@ -500,7 +550,7 @@ Club 5 & 29 & -0.09851 & -0.638  \\
 
 
 \begin{table}[!htbp] \centering 
- \caption{Convergence club classification after merging} 
+ \caption{Convergence club classification before merging} 
   \label{Table_clubs2} 
  \scalebox{0.85}{
 \begin{tabular}{@{\extracolsep{5pt}}lcll} 
