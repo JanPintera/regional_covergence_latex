@@ -192,12 +192,12 @@ In this work, we analyzed 275 European NUTS 2 regions across the new and old mem
 }
 \end{table}
 
-Applying the log $t$ test (Equation \ref{eq10}), the convergence among all the regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.1101417, as visible in Table \ref{Table_overall}. Similar results are obtained also for sample ending in 2015 with the test statistics equal to -20.57569. We can therefore see that there is no overall convergence in the EU in the measured periods.
+Applying the log $t$ test (Equation \ref{eq10}), the convergence among all the regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.1101417, as visible in Table \ref{Table_overall}. Similar results are also obtained for the sample ending in 2015, with the test statistics equal to -20.57569.  We can therefore see that there is no overall convergence in the EU in the measured periods.
 
-Then, we tested for the club convergence. Following the \citeauthor{phillips2007transition}'s clustering procedure, we initially obtained 7 convergence clubs and one diverging region - Inner London – West. As suggested by \citet{bartkowska2012regional}, we subsequently tried to merge the adjoining groups together and tested whether they converge. This process resulted in five convergence clubs with the third and forth clubs merged into a new club. Tables \ref{Table_clubs1} and \ref{Table_clubs2} show results of the procedure after and before merging.
+Then, we tested for the club convergence. Following the \citeauthor{phillips2007transition}'s clustering procedure, we initially obtained 7 convergence clubs and one diverging region - Inner London – West. As suggested by \citet{bartkowska2012regional}, we subsequently tried to merge the adjoining groups together and tested whether they converge. This process resulted in five convergence clubs with the third and forth clubs merged into a new club. Table \ref{Table_clubs1} shows the results of the procedure after merging for the year 2019.
 % Compare with previous results
 
-Table \ref{Table_clubs1_2015} in the Appendix shows the results of the \citeauthor{phillips2007transition} procedure until 2015. We can notice above all that the higher clubs have more members than in 2019 - top economic performance in Europe seems to be becoming more exclusive. This seems to be accompanied by a significant increase in the number of regions in the lowest Club 5. On the other hand, there is also the expansion of the intermediate Club 3.
+Table \ref{Table_clubs1_2015} shows the results of the \citeauthor{phillips2007transition} procedure until 2015.\footnote{Tables \ref{Table_clubs2} and \ref{Table_clubs2_2015} in the Appendix show the clubs before merging for 2019 and 2015 sample respectively}  We can notice above all that the higher clubs have more members than in 2019 - top economic performance in Europe seems to be becoming more exclusive. This seems to be accompanied by a significant increase in the number of regions in the lowest Club 5. On the other hand, there is also the expansion of the intermediate Club 3.
 
 \begin{table}[!htbp] \centering 
  \caption{Convergence club classification after merging} 
@@ -220,10 +220,31 @@ Club 5 & 79 & -0.0963 & -0.968  \\
 }
 \end{table}
 
+\begin{table}[!htbp] \centering 
+ \caption{Convergence club classification after merging (2015)} 
+  \label{Table_clubs1_2015} 
+ \scalebox{0.85}{
+\begin{tabular}{@{\extracolsep{5pt}}lcll} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Club & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
+\hline \\[-1.8ex] 
+Club 1 & 17 &  0.26612  & 2.693 \\ 
+Club 2 & 36 & -0.0148 & -0.088 \\ 
+Club 3 & 93 &  -0.1114  & -1.032  \\ 
+Club 4 & 98 & -0.0625  & -0.593  \\ 
+Club 5 & 29 & -0.09851 & -0.638  \\ 
+\hline \\[-1.8ex]
+%\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
 
-As noted above, the value of the coefficient $b$ from equation \ref{eq10} plays crucial role in the log $t$ test. It is interpreted as the speed of convergence and also shows sign and magnitude of the $t$-statistic. By analyzing the value of $b$ for both versions of the test (5 and 10 clubs), we found out that the convergence clubs are rather weak. We can see negative, albeit insignificant, values of $b$ coefficients suggesting relative convergence at very slow rate, as estimate of parameter $\alpha$ is not significantly different from 0 \citep{phillips2007transition}. The clubs before merging show higher value of $t$-statistics with all the $b$ coefficients being positive. Nevertheless, the quantitative conclusions are the same for both versions.
+\end{tabular}
+}
+\end{table}
 
-We also plotted the convergence behaviour using relative transition coefficient $h_{it}$ from equation \ref{eq8}, which traces out individual transition path of each cross-sectional unit with respect to a group average, for graphical investigation of relative convergence over time. Figures \ref{paths1} and \ref{paths5} show the relative transition paths for the first and the last convergence club\footnote{Analogical Figures for the rest of the Clubs can be found in the Figures \ref{paths2} - \ref{paths4} in the Appendix}. These pictures confirm that the convergence paths can be various, in spite of the ultimate convergence, with some regions rising from very low relative level, other descending from relatively higher level of GDP per capita to the group average. We can also note alternating states of convergence and divergence for some regions. Figure \ref{paths_overall} then documents the overall non-convergence in the EU as a whole using average transition paths for all five clubs.
+
+As noted above, the value of the coefficient $b$ from equation \ref{eq10} plays crucial role in the log $t$ test. It is interpreted as the speed of convergence and also shows sign and magnitude of the $t$-statistic. By analyzing the value of $b$ for both versions of the test for 2019 (5 and 7 clubs), we found out that the convergence clubs are rather weak. We can see negative, albeit insignificant, values of $b$ coefficients suggesting relative convergence at very slow rate, as estimate of parameter $\alpha$ is not significantly different from 0 \citep{phillips2007transition}. The clubs before merging show higher value of $t$-statistics with all the $b$ coefficients being positive. Nevertheless, the quantitative conclusions are the same for both versions.
+
+We also plotted the convergence behaviour using relative transition coefficient $h_{it}$ from equation \ref{eq8}, which traces out individual transition path of each cross-sectional unit with respect to a group average, for graphical investigation of relative convergence over time. Figures \ref{paths1} and \ref{paths5} show the relative transition paths for the first and the last convergence club in 2019.\footnote{Analogical Figures for the rest of the Clubs can be found in the Figures \ref{paths2} - \ref{paths4} in the Appendix.} These pictures confirm that the convergence paths can be various, in spite of the ultimate convergence, with some regions rising from very low relative level, other descending from relatively higher level of GDP per capita to the group average. We can also note alternating states of convergence and divergence for some regions. Figure \ref{paths_overall} then documents the overall non-convergence in the EU as a whole using average transition paths for all five clubs.
 
 \begin{figure}[!htbp]%
     \centering
@@ -525,26 +546,6 @@ Severozapaden, Severen tsentralen, Severoiztochen, Yugoiztochen, Yuzhen tsentral
   
   
 
-\begin{table}[!htbp] \centering 
- \caption{Convergence club classification after merging (2015)} 
-  \label{Table_clubs1_2015} 
- \scalebox{0.85}{
-\begin{tabular}{@{\extracolsep{5pt}}lcll} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
-Club & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
-\hline \\[-1.8ex] 
-Club 1 & 17 &  0.26612  & 2.693** \\ 
-Club 2 & 36 & -0.0148 & -0.088 \\ 
-Club 3 & 93 &  -0.1114  & -1.032  \\ 
-Club 4 & 98 & -0.0625  & -0.593  \\ 
-Club 5 & 29 & -0.09851 & -0.638  \\ 
-\hline \\[-1.8ex]
-\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
-
-\end{tabular}
-}
-\end{table}
 
 
 \begin{table}[!htbp] \centering 
@@ -567,6 +568,31 @@ Club 7 & 79 & -0.0963 & -0.968  \\
 %\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
 
 \end{tabular}
+}
+\end{table}
+
+
+\begin{table}[!htbp] \centering 
+    \caption{Convergence club classification before merging } \label{Table_clubs2_2015}
+ \scalebox{0.85}{
+\begin{tabular}{@{\extracolsep{5pt}}lcll} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Club & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
+\hline \\[-1.8ex] 
+Club 1 & 17 &  0.26612  & 2.693** \\ 
+Club 2 & 36 & -0.0148 & -0.088 \\ 
+Club 3 & 25 &  0.3725  & 2.334** \\ 
+Club 4 & 24 & 0.1924 & 0.974 \\ 
+Club 5 & 30 & 0.02397 & 0.223  \\ 
+Club 6 & 14 & 0.04248 & 0.328 \\ 
+Club 7 & 28 & 0.08075  & 0.720 \\ 
+Club 8 & 30 & 0.2519  & 1.895** \\ 
+Club 9 & 40 & 0.1067   & 0.692  \\ 
+Club 10 & 29 &  -0.09851   & -0.638 \\ 
+\hline \\[-1.8ex]
+\textit{Note:}  & \multicolumn{1}{r}{ $^{**}$p$<$0.05} \\
+\end{tabular} 
 }
 \end{table}
 
