@@ -72,7 +72,7 @@ In this paper, we provide a new look at convergence in the EU while focusing on 
 The gap between the prosperous and divergent regions has recently received attention from policymakers and economists. The topic now even has the potential to become an important part of a new economic paradigm that moves away from globalisation toward more equal sharing of resources and opportunities across different regions \citep{rodrik_2022}. This general shift can be seen as recognition of the deep socioeconomic impact that regional differences have, including serious consequences for a political consensus. The convergence of EU regions is also one of the goals of EU cohesion policy. However, despite large transfers and long history of such policies, large differences in income persist and the speed and nature of convergence is changing over time \citep{eckey2007convergence,zarotiadis2013european, iammarino2019regional}.
 This paper contributes by providing evidence of income convergence across the regions of the European Union between the Great Recession and the Covid-related crisis.
 
-Previous empirical research has suggested several distinguishing patterns of convergence in the EU. It is often pointed out that economic development in large urban areas, and above all capital cities, is found to be significantly more dynamic than in the rest of the countries, leading to high economic inequality within the EU states \citep{geppert2008regional}. This seems to be especially valid for the new member states, with capital cities and main urban regions already among the EU's richest regions by GDP per capita, while many other regions lag behind, and the overall discrepancy between the old and the new member states diminishes rather slowly. The implication is that inequality within the CEE countries is considered especially high \citep{geppert2008regional,sme2012regional, smketkowski2013regional}.
+Previous empirical research has suggested several distinguishing patterns of convergence in the EU. It is often pointed out that economic development in large urban areas, and above all capital cities, is found to be significantly more dynamic than in the rest of the regions, leading to high economic inequality within the EU states \citep{geppert2008regional}. This seems to be especially valid for the new member states, with capital cities and main urban regions already among the EU's richest regions by GDP per capita, while many other regions lag behind, and the overall discrepancy between the old and the new member states diminishes rather slowly. The implication is that inequality within the CEE countries is considered especially high \citep{geppert2008regional,sme2012regional, smketkowski2013regional}.
 
 
 This work investigates the dynamics of regional income convergence with the main focus on finding out whether there is a convergence among all the EU countries or whether there is evidence of convergence clubs, in which case certain regions converge to each other but without a tendency to overall convergence. The work uses a test by \citet{phillips2007transition}, which has been used to analyze convergence at various levels and, in the case of the EU regions, and usually led to the identification of several convergence clubs \citep{bartkowska2012regional, borsi2015evolution, von2017regional}. Its design is especially suited for investigating the club convergence that can be expected among EU regions. Furthermore, we employ logistic regression on the resulting convergence clubs, examining the contribution of a wide range of variables suggested in the economic growth literature to the current state of convergence in the EU.
@@ -95,18 +95,12 @@ where we assume \(0 < a_{1} < 1\). In this setting, \(a_{1} > 0 \) implies conve
 
 The regression above is often augmented by control variables, creating the conditional convergence model \citep{sala1996regional}. It is worth noting that the $\beta$-convergence is designed to test the sign of the convergence parameter $\beta$ in Equation \ref{eq3} while we assume the parameter's homogeneity across time and cross-sections. This assumption is the main difference between the classical  $\beta$-convergence and the log $t$ test of \citet{phillips2007transition} used in this work that relaxes this assumption.
 
-Another common approach is the so-called $\sigma$-convergence that is based on the sample variance of log income per capita, which is used in combination with the equation for $\log y_{it}$ above to derive the following first-order difference equation:
- \(
-\sigma_{t}^{2} \cong (1-a_{1})^2\sigma_{t-1}^{2} + \sigma_{u}\).
-This equation shows the relation with $\beta$-convergence as $\sigma$-convergence convergence is only possible if \(0 < a_{1} < 1\). However, using the steady state value of $(\sigma^{2})^{*}$ to derive the expression \begin{equation} \label{eq2}\sigma_{t}^{2} = (\sigma^{2})^{*} + (1-a_{1})^2[\sigma_{t-1}^{2} - (\sigma^{2})^{*}] \end{equation}
-and, as noted by \citet{sala1996regional},  $\beta$-convergence does not have to imply $\sigma$-convergence as it depends on the initial value of $\sigma^{2}$ whether the sample variance  $\sigma_{t}^{2}$ will be increasing or decreasing on its way to steady state.
-
-The $\beta$ and $\sigma$-convergence are still broadly used frameworks for estimation of convergence. Recently, however, many other methods were utilized to find convergence at both the state and the regional level. The following part presents a brief description of some of these methods and their results.
+The $\beta$-convergence is still broadly used frameworkfor estimation of convergence. Recently, however, many other methods were utilized to find convergence at both the state and the regional level. The following part presents a brief description of some of these methods and their results.
   
  \subsection{Empirical analyses of convergence among EU regions}
 %Despite growing consensus pointing at existence of several economic clubs in Europe as opposed to any form of overall convergence \citep{cutrini2019economic, iammarino2017regional}. The empirical research about the converge has a long history, with most of the papers concentrating on pre 2008-crisis era \citep{cutrini2019economic}.  %NOTE: this is a new paragraph
 
-\citet{eckey2007convergence} conclude in their meta-analysis that most of the empirical convergence literature finds a significant, however rather small, convergence rate among European regions in the time span from 1980s to early 2000s. This finding is, however, not universal. Some papers find a high rate of convergence, whereas others fail to find convergence at all. This variety of conclusions is caused by differences in methods and in the number of regions included \citep{eckey2007convergence}. Other studies also suggest that the convergence pattern among the European regions was not stable in the post-war period. \citet{eckey2007convergence} note that several empirical works found that the convergence rate among the EU regions had diminished during the second half of the twentieth century. Others concluded that convergence in Europe appears to be U-shaped \citep{basile2001regional, geppert2008regional}. It seems to reach its lowest point around the beginning of the 1980s, accelerating again later on. \citet{geppert2008regional} also conclude that convergence is happening mainly at the national level, whereas regionally, we see a strengthening of metropolitan areas. From the newer contributions, \citet*{sme2012regional} find, using the $\beta$-convergence, only a weak tendency for regional convergence in the CEE countries, while in the case of some countries (for example Poland), there was absolute divergence even when the capital region was excluded. As far as the $\sigma$-convergence is concerned, the results seem as inconclusive as before, with conclusions differing based on the period and the sample of regions investigated \citep{eckey2007convergence}.
+\citet{eckey2007convergence} conclude in their meta-analysis that most of the empirical convergence literature finds a significant, however rather small, convergence rate among European regions in the time span from 1980s to early 2000s. This finding is, however, not universal. Some papers find a high rate of convergence, whereas others fail to find convergence at all. This variety of conclusions is caused by differences in methods and in the number of regions included \citep{eckey2007convergence}. Other studies also suggest that the convergence pattern among the European regions was not stable in the post-war period. \citet{eckey2007convergence} note that several empirical works found that the convergence rate among the EU regions had diminished during the second half of the twentieth century. Others concluded that convergence in Europe appears to be U-shaped \citep{basile2001regional, geppert2008regional}. It seems to reach its lowest point around the beginning of the 1980s, accelerating again later on. \citet{geppert2008regional} also conclude that convergence is happening mainly at the national level, whereas regionally, we see a strengthening of metropolitan areas. From the newer contributions, \citet*{sme2012regional} find, using the $\beta$-convergence, only a weak tendency for regional convergence in the CEE countries, while in the case of some countries (for example Poland), there was absolute divergence even when the capital region was excluded. %As far as the $\sigma$-convergence is concerned, the results seem as inconclusive as before, with conclusions differing based on the period and the sample of regions investigated \citep{eckey2007convergence}.
  
  Another concept of convergence that appears to gain popularity in recent years is club convergence. \citet{iammarino2017regional}, notes a reversal in inequality trend after 1990s with medium-sized manufacturing cities stagnating while large metropolitan areas being the most dynamic, he also defines 4 convergence clubs in EU based on their level of GDP per capita.  % TODO finish!!!!
  A standard model for testing this type of convergence is the so-called LISA (Local Indicators of Spatial Association). It is based on finding clusters of regions with a value of a variable measuring spatial association between the regions constantly above average for a longer period of time. The statistic defined by \citet{getis1992analysis} is then used as this variable most often. One of the distinguishing features of the LISA methodology is that it is aimed at finding clusters of neighbouring regions. As a result, this method often leads to large clusters along the south-north  (as found, for example, in \citet{baumont2003spatial}) or between new and old members states \citep{eckey2007convergence}. The evidence for regional clustering, however, goes beyond this specified methods such as LISA, \citet{cartone2021does} utilize quantile regression within the traditional  beta-convergence framework, they confirm convergence among European but with speed of convergence being faster at the lower quantiles, this support the evidence clustering among European regions. \citeauthor{cartone2021does}'s results are supported by \citet{panzera2022impact} who while investigating impact of inequality on economic growth, find that for less developed regions the converge process is taking place at a faster rate than for more developed ones.
@@ -122,7 +116,7 @@ Other empirical works confirm an inclination of large urban areas and, above all
 
 From further research, \citet{ehrlich2020place} provide extensive discussion of EU’s cohesion policy in light of the metro areas performance concluding that these place-based policies have positive impact but especially for areas with higher education levels. \citet{rodriguez2020institutional} concentrate on investigating impact of government quality on the economic performance of European regions in dynamic panel regression framework between 2009 and 2013. They find government quality to be a key determinant of economic growth in Southern periphery with less importance in lagging regions of Eastern Europe. These findings help us to justify choice of the explanatory variable in the regression below.
 
-Our review suggests that most of the convergence literature works with samples ending in the 2000s and 2010s. As documented above, the convergence pattern is changes over time. Therefore, there is room to reassess the convergence and its development in light of the key economic events. This work will pay attention primarily to the aftermath of the Great Recession and the COVID crisis.
+Our review suggests that most of the convergence literature works with samples ending in the 2000s and 2010s. As documented above, the convergence pattern is changes over time. Therefore, there is room to reassess the convergence and its development in light of the key economic events. This work will pay attention primarily to the aftermath of the Great Recession and the development preceding the COVID crisis.
 
 
 \subsection{The log $t$ test - modelling framework}
@@ -140,25 +134,25 @@ As often noted (\citet{dall2008regional}, \citet{magrini2004regional}, \citet{an
 \section{Results: Convergence versus Convergence Clubs}
 In this work, we analyzed 275 European NUTS 2 regions in the new and old member states of the EU. We used the log $t$ test by \citet{phillips2009economic}, described above. The test and the associated clustering procedure were applied to the log GDP per capita (in PPS) between the years 2003 and 2019. To assess changes in the convergence patterns, we also estimate the convergence clubs on the sample until 2015. Data were obtained primarily from the "Regional statistics by NUTS classification" database on the Eurostat website.
 
-\begin{table}[!htbp] \centering 
- \caption{Log $t$ test result for all regions} 
-  \label{Table_overall} 
- \scalebox{0.85}{
-\begin{tabular}{@{\extracolsep{5pt}}cll} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
-\multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
-\hline \\[-1.8ex] 
-277 &  -0.7577563  & -20.1101417 \\ 
-\hline \\[-1.8ex]
+%\begin{table}[!htbp] \centering 
+% \caption{Log $t$ test result for all regions} 
+%  \label{Table_overall} 
+% \scalebox{0.85}{
+%\begin{tabular}{@{\extracolsep{5pt}}cll} 
+%\\[-1.8ex]\hline 
+%\hline \\[-1.8ex] 
+%\multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
+%\hline \\[-1.8ex] 
+%277 &  -0.758  & -20.110 \\ 
+%\hline \\[-1.8ex]
 %\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
-\end{tabular}
-}
-\end{table}
+%\end{tabular}
+%}
+%\end{table}
 
-Applying the log $t$ test (Equation \ref{eq10}), the convergence among all regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.1101417, as visible in Table \ref{Table_overall}. Similar results are also obtained for the sample ending in 2015, with the test statistics equal to -20.57569. Therefore, we can see that there is no overall convergence in the EU in the measured periods.
+Applying the log $t$ test (Equation \ref{eq10} in the Appendix), the convergence among all regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.110. Similar results are also obtained for the sample ending in 2015, with the test statistics equal to -20.576. Therefore, we can see that there is no overall convergence in the EU in the measured periods.
 
-Then, we tested for the club convergence. Following the \citeauthor{phillips2007transition}'s clustering procedure, we initially obtained 7 convergence clubs and one diverging region, Inner London – West. As suggested by \citet{bartkowska2012regional}, we subsequently tried to merge the adjoining groups and tested whether they converge. This process resulted in five convergence clubs with the third and fourth clubs merged into a new club. Table \ref{Table_clubs1} shows the results of the procedure after merging for the year 2019 while Table \ref{Table_clubs1_2015} shows the results of the \citeauthor{phillips2007transition} procedure until 2015.\footnote{Tables \ref{Table_clubs2} and \ref{Table_clubs2_2015} in the Appendix show the clubs before merging for 2019 and 2015 sample respectively.}  We can notice above all that the higher clubs have more members than in 2019 - top economic performance in Europe seems to be becoming more exclusive. This seems to be accompanied by a significant increase in the number of regions in the lowest Club 5. On the other hand, there is also an expansion of the intermediate Club 3.
+Then, we tested for the club convergence. Following the \citeauthor{phillips2007transition}'s clustering procedure, we initially obtained 7 convergence clubs and one diverging region, Inner London – West. As suggested by \citet{bartkowska2012regional}, we subsequently tried to merge the adjoining groups and tested whether they converge. This process resulted in five convergence clubs with the third and fourth clubs merged into a new club. The same procedure were applied for the 2015 sample, also leading to the same number of merged clubs and two diverging regions Luxembourg and Inner London – West. Table \ref{Table_clubs1} shows the results of the procedure after merging for the year 2019 as well as the results of the \citeauthor{phillips2007transition} procedure until 2015.\footnote{Tables \ref{Table_clubs2} and \ref{Table_clubs2_2015} in the Appendix show the clubs before merging for 2019 and 2015 sample respectively.}  We can notice above all that the higher clubs have more members than in 2019 - top economic performance in Europe seems to be becoming more exclusive. This seems to be accompanied by a significant increase in the number of regions in the lowest Club 5. On the other hand, there is also an expansion of the intermediate Club 3.
 
 \begin{table}[!htbp] \centering 
  \caption{Convergence club classification after merging} 
@@ -167,39 +161,23 @@ Then, we tested for the club convergence. Following the \citeauthor{phillips2007
 \begin{tabular}{@{\extracolsep{5pt}}lcllccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
-Club & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value} & \multicolumn{1}{c}{2019 log(Y)}
+Club & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value} & \multicolumn{1}{c}{final log(Y)}
 & \multicolumn{1}{c}{$\Delta$Y} & \multicolumn{1}{c}{SD Y} \\ 
-\hline \\[-1.8ex] 
-Club 1 & 10 &  0.0194  & 0.113 &  11.0 & 0.584 & 0.156  \\ 
+\hline \\[-1.8ex]
+\multicolumn{7}{c}{2019 Convergence Clubs}\\
+Club 1 & 10 &  0.019  & 0.113 &  11.0 & 0.584 & 0.156  \\ 
 Club 2 & 24 & 0.108 & 0.710 & 10.7 & 0.461 & 0.133   \\ 
 Club 3 & 111 & -0.123   & -1.40 & 10.4 &  0.418 & 0.181 \\ 
 Club 4 & 52 & 0.163  & 1.53 & 10.1 & 0.407 & 0.148 \\ 
-Club 5 & 79 & -0.0963 & -0.968 & 9.88 & 0.340 & 0.229 \\ 
+Club 5 & 79 & -0.096 & -0.968 & 9.88 & 0.340 & 0.229 \\
+\hline
+\multicolumn{7}{c}{2015 Convergence Clubs}\\
+Club 1 & 17 &  0.266  & 2.693 & 10.9 & 0.444  & 0.190 \\ 
+Club 2 & 36 & -0.015 & -0.088 & 10.6 & 0.350 & 0.169 \\ 
+Club 3 & 93 &  -0.111  & -1.032 & 10.2 & 0.307 & 0.224\\ 
+Club 4 & 98 & -0.063  & -0.593 & 10.0 & 0.289 & 0.197\\ 
+Club 5 & 29 & -0.099 & -0.638 & 9.77 & 0.236 & 0.263\\ 
 \hline \\[-1.8ex]
-%\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
-
-\end{tabular}
-}
-\end{table}
-
-\begin{table}[!htbp] \centering 
- \caption{Convergence club classification after merging (2015)} 
-  \label{Table_clubs1_2015} 
- \scalebox{0.85}{
-\begin{tabular}{@{\extracolsep{5pt}}lcllccc} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
-Club & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value} & \multicolumn{1}{c}{2015 log(Y)}
-& \multicolumn{1}{c}{$\Delta$Y} & \multicolumn{1}{c}{SD Y}  \\ 
-\hline \\[-1.8ex] 
-Club 1 & 17 &  0.26612  & 2.693 & 10.9 & 0.444  & 0.190 \\ 
-Club 2 & 36 & -0.0148 & -0.088 & 10.6 & 0.350 & 0.169 \\ 
-Club 3 & 93 &  -0.1114  & -1.032 & 10.2 & 0.307 & 0.224\\ 
-Club 4 & 98 & -0.0625  & -0.593 & 10.0 & 0.289 & 0.197\\ 
-Club 5 & 29 & -0.09851 & -0.638 & 9.77 & 0.236 & 0.263\\ 
-\hline \\[-1.8ex]
-%\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
-
 \end{tabular}
 }
 \end{table}
@@ -211,16 +189,21 @@ We also plotted the convergence behaviour using the relative transition coeffici
 
 \begin{figure}[!htbp]%
     \centering
-    \includegraphics[scale = 0.5]{RTC_mer_club1.png}
-    \caption{Transition paths for members of the first Club}
-    \label{paths1}
-\end{figure}
-
-\begin{figure}[!htbp]%
+\begin{subfigure}{0.45\textwidth}
     \centering
-    \includegraphics[scale = 0.5]{RTC_mer_club5.png}
-    \caption{Transition paths for members of the fifth Club }
+    \includegraphics[width=0.95\linewidth]{RTC_mer_club1.png}
+    \caption{First Club}
+    \label{paths1}   
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.95\linewidth]{RTC_mer_club5.png}
+    \caption{Fifth Club}
     \label{paths5}
+\end{subfigure}
+\caption{Transition paths for members of the First and Last Convergence Clubs (2019)}
+\label{convergence_paths}
+
 \end{figure}
 
 
@@ -295,20 +278,19 @@ Metropolitan regions & Dummy indicating presence of  a large urban area  \\
 Patent activity & Average number of patents per million inhabitants \\
 Regional Innovation Index & European and Regional Innovation Scoreboards an extension of the European innovation scoreboard (EIS) published by the European Commission between years 2014 and 2019
 \\
-Governance Quality & Measured by European Quality of Government Index (EQI) between 2010 and 2017 \citet{charron2014regional}.\\
+Governance Quality & Measured by European Quality of Government Index (EQI) in 2010  \citep{charron2014regional}.\\
 Highest Neighbour Income & Log GDP per capita of the richest neighbouring region.  \\
-Avg. Neighbours Income & Average GDP per capita of the neighbouring regions. \\
-Border Region &  Dummy indicating region lying on EU's internal or external border.
+Border Region &  Dummy indicating region lying on EU's internal or external border.\\
 \hline 
 \hline \\[-1.8ex]
-\textit{Note:} & Unless stated otherwise, the variables are used as initial conditions in 2008\footnote{We also estimated versions of our regression with changes of variables above between 2008 and 2019 and their average values.}.   \\
+\textit{Note:} & Unless stated otherwise, the variables are used as initial conditions in 2008.   \\
 \end{tabular}
 \end{minipage}}
 \end{table} 
 
-We used several explanatory variables for our analysis. We again worked with Eurostat data ("Regional statistics by NUTS classification"). Since we focused on post-crisis development and wanted to investigate the role of sectoral composition, we used the data from 2008 to 2019 in the logistic regression instead of the 2003 - 2019 period used for the convergence analysis. This is partly due to limited availability of the older data for the new member states, but it also allows us to concentrate on the EU's development between two distinct crises (the Great Recession of 2008 and 2009 and the COVID crisis). The choice of these variables follows New Economic Geography (NEG) and New Growth Theory (NGT), as well as previous research papers such as \citet{mora2008factors} or \citet{bartkowska2012regional}. Table \ref{var_legend} presents an overview of the variables with their names as they appear in the regression results below.
+We used several explanatory variables for our analysis. We again worked with Eurostat data ("Regional statistics by NUTS classification"). Since we focused on post-crisis development and wanted to investigate the role of sectoral composition, we used the data from 2008 to 2019 in the logistic regression instead of the 2003 - 2019 period used for the convergence analysis. This is due to the limited availability of the older data for the new member states and changes in the Eurostat classification of economic activity that affect the sectoral variables. But it also allows us to concentrate on the EU's development between two distinct crises (the Great Recession of 2008 and 2009 and the COVID crisis). The choice of these variables follows New Economic Geography (NEG) and New Growth Theory (NGT), as well as previous research papers such as \citet{mora2008factors} or \citet{bartkowska2012regional}. Table \ref{var_legend} presents an overview of the variables with their names as they appear in the regression results below.
 
-In line with the literature, we included variables measuring the level of initial economic specialization in most of the NACE Rev.2 classification sectors.\footnote{Some of the sectors were omitted due to large number of missing observations, such as the Real Estate activities.} We defined the specialisation as the share of the population employed in a given sector over the overall employment in the year 2008. We worked with six sectors spanning from Industry to Financial Services, as defined by NACE classification of economic activity, and the Business services. Business services are a dynamically developing subsector of the economy, shown by the previous research as potentially highly innovations and productivity promoting \citep{corrocher2014kibs}. Following \citet{guastella2015knowledge} we defined the specialization in Business Services as the share of workers employed in Business services in total employed population. This work uses the definition of the Business services given by regulation of the European Parliament No. 298/2008. This regulation defines Business services as consisting of five divisions and three groups of NACE Rev. 2 classification (divisions 62, 69, 71, 73 and 78 and groups 58.2, 63.1 and 70.2). The data are not available in such detail in the Eurostat database for the Business services, therefore whole divisions (58, 63 and 70) are used as reasonable approximations for the respective groups.
+In line with the literature, we included variables measuring the level of initial economic specialization in most of the NACE Rev.2 classification sectors.\footnote{Some of the sectors were omitted due to large number of missing observations, such as the Real Estate activities.} We defined the specialization as the share of the population employed in a given sector over the overall employment in the year 2008. We worked with six sectors spanning from Industry to Financial Services, as defined by NACE classification of economic activity, and the Business services. Business services are a dynamically developing subsector of the economy, shown by the previous research as potentially highly innovative and productivity promoting \citep{corrocher2014kibs}. Following \citet{guastella2015knowledge} we defined the specialization in Business Services as the share of workers employed in Business services in total employed population. This work uses the definition of the business services given by regulation of the European Parliament No. 298/2008. This regulation defines business services as consisting of five divisions and three groups of NACE Rev. 2 classification (divisions 62, 69, 71, 73 and 78 and groups 58.2, 63.1 and 70.2). The data are not available in such detail in the Eurostat database for the Business services, therefore whole divisions (58, 63 and 70) are used as reasonable approximations for the respective groups.
 
 We also added the log of initial (2008) GDP and Gross Fixed Capital Formation as measures of initial economic conditions. We find these variables in line with the neoclassical growth theory \cite{iammarino2017regional}.% maybe see Cutrini or Iammarino's Solow comment
 
@@ -318,130 +300,158 @@ As noted in Table \ref{var_legend}, we also decided to use the Regional Innovati
 
 Inspired by New Economic Geography's emphasis on agglomeration economies as key drivers of growth but also drivers of territorial divergence. The two main equalizing 
 counterfactors should then be knowledge spillovers and within-country migration  \citep{iammarino2017regional}. Therefore, we included dummies measuring the level of regional urbanization and indicating capital cities. %As an alternative, we utilize Eustostat's distinction between urban, rural and intermediate areas.
-Last but not least, we use variables measuring economic development of the region's surrounding. Namely, we use income level of the richest neighbour of given region and an average income level of all surrounding regions. While the former variable will typically be highest for regions surrounding large agglometations, the latter should be more responsive to overall level of development around the region.
+Last but not least, we use income level of the richest neighbour of a given region to check the impact of a region's surrounding.
 
 \subsection{Regression Results}
 
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: čt, srp 24, 2023 - 20:47:57
+\begin{table}[!htbp] \centering 
+\resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
+  \caption{Marginal effects of Logistic regression with Sectoral and Human capital variables. Logistic regression with merged Clubs, FAMD imputation and robust standard errors.} 
+  \label{famd_filtered_marginal_spec1} 
+\begin{tabular}{@{\extracolsep{5pt}} lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Club 1 & Club 2 & Club 3 & Club 4 & Club 5 \\ 
+\hline \\[-1.8ex] 
+GDP per capita (logs) & $0.011$$^{*}$ & $0.108$$^{***}$ & $1.712$$^{***}$ & $ $-$0.980$$^{***}$ & $ $-$0.851$$^{***}$ \\ 
+GFCF (logs)  & $0.000$ & $0.000$ & $ $-$0.001$ & $0.000$ & $0.000$ \\ 
+Spec. Agriculture & $0.021$ & $0.202$$^{**}$ & $3.211$$^{***}$ & $ $-$1.838$$^{***}$ & $ $-$1.596$$^{***}$ \\ 
+Spec. Finances & $0.053$ & $0.519$$^{**}$ & $8.229$$^{**}$ & $ $-$4.712$$^{***}$ & $ $-$4.090$$^{***}$ \\ 
+Spec. Industry & $0.023$$^{*}$ & $0.230$$^{***}$ & $3.648$$^{***}$ & $ $-$2.089$$^{***}$ & $ $-$1.813$$^{***}$ \\ 
+Spec. Trade, Accommodation & $0.005$ & $0.053$ & $0.836$ & $ $-$0.479$ & $ $-$0.416$ \\ 
+Spec. Other Services & $ $-$0.025$ & $ $-$0.248$ & $ $-$3.939$ & $2.255$ & $1.958$ \\ 
+Business Services & $0.010$ & $0.095$$^{*}$  & $1.509$$^{*}$  & $ $-$0.864$$^{*}$  & $ $-$0.750$$^{*}$  \\ 
+Share of Scientists & $0.225$$^{*}$  & $2.203$$^{***}$  & $34.931$$^{***}$  & $ $-$19.999$$^{***}$  & $ $-$17.359$$^{***}$  \\ 
+Tertiary Edu. Share & $ $-$0.005$ & $ $-$0.051$$^{*}$  & $ $-$0.801$$^{**}$  & $0.458$$^{**}$  & $0.398$$^{**}$  \\
+\hline \hline \\[-1.8ex]
+McFadden's $R^{2}$: 0.366 \\
+Observations: 267\\
+No. of Parameters 10\\
+\hline
+\textit{\small{Significance levels:}}  & \multicolumn{3}{l}{\small{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}
+
+\end{tabular}
+\end{minipage}}
+
+\end{table} 
+
+This section shows the impact of the explanatory variables discussed in the previous section on the probability of membership in a given convergence club, tested via logistic regression. More specifically, we were interested in the impact of the initial conditions on future economic performance. Therefore, the 2008 values of the listed variables were used.\footnote{Table \ref{famd_selected_marginal} uses Factorial Analysis for Mixed Data (FAMD) as an imputation method to deal with the missing observations.}  Standard regression outputs are also reported in the Appendix for brevity. Marginal effects are calculated at the means of the independent variables and show the impact of one unit change in an explanatory variable on the probability that a certain region will enter a particular club \citep{carrolloglmx}.
+
+Our work can be compared with previous ones such as \citet{cutrini2019economic}, \citet{von2017regional}, and \citet{bartkowska2012regional}, and contributes to a discussion between initial GDP levels and sectoral specialization as primary determinants of economic destiny. Compared to \citet{cutrini2019economic}, who concentrates in a similar exercise on the initial specialization levels, we focus more on variables linked to NEG, such as agglomeration effects, innovation activity, or regional governance quality. Our choice of the time period (2008 - 2019) also allows us to concentrate on the development between the two crises. 
+
+We divide our results into three specifications. First, we tested only sectoral variables together with variables linked to human capital in Table \ref{famd_filtered_marginal_spec1}. In the second specification, in Table \ref{famd_filtered_marginal_spec2},  we investigate the geographic factors linked to economics performance such as dummies for capital cities and the impact of neighbouring regions. Table \ref{famd_selected_marginal_neigh_robust_filtered} then brings all the variables together.
+
+Across the specifications, our results suggest that the magnitude of the marginal effects tends to peak around Club 3 and weakens for the very top Club. There is a minimal impact on the top Club membership of any of our variables, this holds both in terms of significance and magnitude. 
+Analysing the impact of individual variables, we can first notice that the initial income per capita does have a significant effect on club membership, with a higher initial GDP per capita in 2008 increasing the probability of being in the highest convergence clubs in 2019. This suggests a certain level of inertia in economic development.
+ 
+Table \ref{famd_filtered_marginal_spec1} documents the effect of the structural specialization variables as suggested by \citet{cutrini2019economic}. Especially strong seems to be the impact of Industry\footnote{Composed primarily of Manufacturing but also encompassing NACE Sections B, E, F (Mining, Electricity, gas, steam and air conditioning supply and Water supply) besides Manufacturing (NACE Section C) itself, which however plays a dominant role in the category.} and Finance and Insurance Services. Concentration of Financial Services. The two variables turn out to be the most important predictors of Club 1 membership in Table \ref{famd_filtered_marginal_spec1}. This finding seems to be in line with two specific trends visible in present-day Europe - the first is the importance and emergence of the "Manufacturing Core" in its central part, and the second is the key role of the urban financial centres. Concentration in financial services appears, however, to overlap with the incidence of capital cities, putting their importance into question and speaking in favor of agglomeration effects as suggested by New Economic Geography.
+We can also note the negative impact of the "Other Services" category, which includes entertainment and recreation, on the probability of a higher club membership. This could be a result of the strong tourism dependence of the southern EU periphery. However, the marginal effects are never significant for this variable. On the contrary, specialization in business services has a positive impact on the probability of entering the highest clubs, yet it is again only marginally significant.
+
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: pá, srp 25, 2023 - 08:30:02
+\begin{table}[!htbp] \centering 
+\resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
+  \caption{Marginal effects of Logistic regression with Geographic determinants. Logistic regression with merged Clubs, FAMD imputation and robust standard errors.} 
+  \label{famd_filtered_marginal_spec2} 
+\begin{tabular}{@{\extracolsep{5pt}} lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Club 1 & Club 2 & Club 3 & Club 4 & Club 5 \\ 
+\hline \\[-1.8ex] 
+GDP per capita & $0.023$$^{**}$ & $0.173$$^{***}$ & $1.684$$^{***}$ & $ $-$0.870$$^{***}$ & $ $-$1.010$$^{***}$ \\ 
+GFCF (logs) & $ $-$0.001$ & $ $-$0.004$ & $ $-$0.040$ & $0.020$ & $0.024$ \\ 
+Capital & $0.004$$^{*}$ & $0.031$$^{**}$ & $0.186$$^{***}$ & $ $-$0.119$$^{***}$ & $ $-$0.103$$^{***}$ \\ 
+Metro area & $0.003$$^{*}$ & $0.019$$^{**}$ & $0.240$$^{***}$ & $ $-$0.089$$^{***}$ & $ $-$0.173$$^{***}$ \\ 
+Governance Quality & $ $-$0.001$ & $ $-$0.006$ & $ $-$0.055$ & $0.028$ & $0.033$ \\ 
+Highest Neighbour Income & $ $-$0.004$$^{*}$ & $ $-$0.028$$^{**}$ & $ $-$0.273$$^{***}$ & $0.141$$^{***}$ & $0.164$$^{***}$ \\ 
+Border Region & $0.004$$^{*}$ & $0.029$$^{***}$ & $0.269$$^{***}$ & $ $-$0.129$$^{***}$ & $ $-$0.173$$^{***}$ \\ 
+\hline \hline \\[-1.8ex]
+McFadden's $R^{2}$: 0.313 \\
+Observations:  267\\
+No. of Parameters:  7\\
+\hline 
+\textit{\small{Significance levels:}}  & \multicolumn{3}{l}{\small{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}
+\end{tabular} 
+\end{minipage}}
+\end{table} 
+
+We can also see a strong effect of the variables connected with research activity in Table \ref{famd_filtered_marginal_spec1}, such as the share of scientists and patent activity.\footnote{As the research activity variables, including the Regional Innovation Index, are highly correlated, Table \ref{famd_selected_marginal} shows only the share of the scientists, which turned out to be the most impactful variable, other results are available upon request.} The results suggest that the initial share of scientists has a large impact on the probability of entering the First Club. In the case of the share of the tertiary educated in the population, we see that the initial levels of this variable turn out to be also significant; the marginal effects, however, give a somewhat counterintuitive result with a positive association with the lower clubs. One of the possible interpretations of these results could be that increasing the formal level of education in a given region is on its own insufficient for economic prosperity and needs to be accompanied by functioning innovation ecosystems capable of employing the increasing number of tertiary education graduates in adequate jobs.
+
+Turning to our second specification in Table \ref{famd_filtered_marginal_spec2}, we a positive impact of metropolitan areas and especially capital cities that seem to be a predictor of high club membership. In fact, the highest club is primarily composed of capital cities (6 of the 10 regions in Club 1 contain a capital city).  We can see very similar impact of the metropolitan areas dummy on the club membership as we saw for the capital cities.
+
+Table \ref{famd_filtered_marginal_spec2} further shows that the presence of a high-income neighbour decreases the economic prospects of its neighbours. These results suggest that high-income localities can bring a negative drag on its surroundings, most likely in the form of a drain on the human capital of the poor neighbours. We can also see that the dummy denoting the border regions is significant, with a positive effect, which is not surprising, as many of the capital cities and prosperous regions lie near the internal border of the EU. We also tested the impact of the Quality of Governance index, yet it turned out to be insignificant.
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: so, srp 05, 2023 - 22:21:23
 \begin{table}[!htbp] \centering
 \resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{Marginal effects: Logistic regression with merged Clubs, FAMD imputation and robust standard errors. 9 regions with no mighbouring regions have been removed.} 
+  \caption{Marginal effects: Logistic regression with merged Clubs, FAMD imputation and robust standard errors. 9 regions with no neighbouring regions have been removed.} 
   \label{famd_selected_marginal_neigh_robust_filtered} 
-\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+\begin{tabular}{@{\extracolsep{5pt}} lccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
  & Club 1 & Club 2 & Club 3 & Club 4 & Club 5 \\ 
-\hline \\[-1.8ex] 
-%log\_init\_gdp & $0.004$ & $0.094$ & $2.846$ & $$-$1.977$ & $$-$0.967$ \\ 
-GDP per capita (logs & $0.004$ & $0.094$$^{***}$ & $2.846$$^{***}$ & $ $-$1.977$$^{***}$ & $ $-$0.967$$^{***}$ \\ 
-%init\_gfcf & $0$ & $0$ & $0.003$ & $$-$0.002$ & $$-$0.001$ \\ 
-GFCF (logs) & $0.000$ & $0.000$ & $0.003$ & $ $-$0.002$ & $ $-$0.001$ \\ 
-% spec\_A & $0.004$ & $0.099$ & $3$ & $$-$2.084$ & $$-$1.019$ \\ 
-Spec. Agriculture & $0.004$ & $0.099$$^{**}$ & $3.000$$^{***}$ & $ $-$2.084$$^{**}$ & $ $-$1.019$$^{**}$ \\ 
-% spec\_K & $0.007$ & $0.165$ & $4.998$ & $$-$3.472$ & $$-$1.698$ \\ 
-Spec. Finances & $0.007$ & $0.165$ & $4.998$$^{*}$ & $ $-$3.472$$^{*}$ & $ $-$1.698$ \\ 
-% spec\_BE & $0.005$ & $0.117$ & $3.538$ & $$-$2.458$ & $$-$1.202$ \\ 
-Spec. Industry & $0.005$ & $0.117$$^{**}$ & $3.538$$^{***}$ & $ $-$2.458$$^{***}$ & $ $-$1.202$$^{***}$ \\ 
-% spec\_GI & $0$ & $0.005$ & $0.143$ & $$-$0.099$ & $$-$0.049$ \\ 
+\hline \\[-1.8ex]
+%log\_init\_gdp & $0.005$ & $0.076$ & $2.182$ & $$-$1.453$ & $$-$0.810$ \\
+GDP per capita (logs) & $0.005$ & $0.076$$^{***}$ & $2.182$$^{***}$ & $ $-$1.453$$^{***}$ & $ $-$0.810$$^{***}$ \\ 
+%init\_gfcf & $0$ & $$-$0.001$ & $$-$0.022$ & $0.014$ & $0.008$ \\ 
+GFCF (logs) & $0.000$ & $ $-$0.001$ & $ $-$0.022$  & $0.014$ &  $0.008$ \\ 
+\multicolumn{6}{c}{\textit{Sectoral Variables}}\\
 
-Spec. Trade, Accommodation & $0.000$ & $0.005$ & $0.143$ & $ $-$0.099$ & $ $-$0.049$ \\
-%spec\_RU & $$-$0.003$ & $$-$0.077$ & $$-$2.323$ & $1.614$ & $0.789$ \\ 
-Spec. Other Services & $ $-$0.003$ & $ $-$0.077$ & $ $-$2.323$ & $1.614$ & $0.789$ \\ 
-% BS & $0.001$ & $0.026$ & $0.799$ & $$-$0.555$ & $$-$0.272$ \\  
-Business Services & $0.001$ & $0.026$ & $0.799$ & $ $-$.555$ & $ $-$0.272$ \\ 
-% init\_scientists\_share & $0.022$ & $0.489$ & $14.826$ & $$-$10.299$ & $$-$5.037$ \\ 
-Share of Scientists & $0.022$ & $0.489$ & $14.826$ & $ $-$10.299$ & $ $-$5.037$ \\  
-%init\_ter\_edu & $$-$0.002$ & $$-$0.035$ & $$-$1.055$ & $0.733$ & $0.358$ \\ 
-Tertiary Edu. Share  & $ $-$0.002$ & $ $-$0.035$$^{**}$ & $ $-$1.055$$^{**}$ & $0.733$$^{**}$ & $0.358$$^{**}$ \\ 
-% capital & $0.001$ & $0.013$ & $0.220$ & $$-$0.168$ & $$-$0.066$ \\ 
-Capital & $0.001$ & $0.013$ & $0.220$$^{***}$ & $ $-$0.168$$^{**}$ & $ $-$0.066$$^{***}$ \\
-% metro & $0$ & $0.003$ & $0.092$ & $$-$0.061$ & $$-$0.034$ \\ 
-Metro area & $0.000$ & $0.003$ & $0.092$ & $ $-$0.061$ & $ $-$0.034$ \\ 
-% init\_eqi & $0$ & $0.005$ & $0.157$ & $$-$0.109$ & $$-$0.053$ \\ 
-Governance Quality & $0.000$ & $0.005$$^{*}$ & $0.157$$^{**}$ & $ $-$0.109$$^{**}$ & $ $-$0.053$$^{**}$ \\ 
-% neigh\_highest\_income & $0.001$ & $0.011$ & $0.343$ & $$-$0.239$ & $$-$0.117$ \\  
-Highest Neighbour Income & $0.001$ & $0.011$ & $0.343$$^{*}$ & $ $-$0.239$$^{**}$ & $ $-$0.117$$^{*}$ \\ 
-% neigh\_avg\_income & $$-$0.002$ & $$-$0.055$ & $$-$1.655$ & $1.150$ & $0.562$ \\ 
-Avg. Neighbours Income & $ $-$0.002$ & $ $-$0.055$$^{**}$ & $ $-$1.655$$^{***}$ & $1.150$$^{***}$ & $0.562$$^{***}$ \\ 
-% border\_region & $0$ & $0.007$ & $0.211$ & $$-$0.143$ & $$-$0.076$ \\ 
-Border Region & $0.000$ & $0.007$$^{**}$ & $0.211$$^{***}$ & $ $-$0.143$$^{***}$ & $ $-$0.076$$^{***}$ \\ 
+%spec\_A & $0.010$ & $0.136$ & $3.921$ & $$-$2.611$ & $$-$1.456$ \\ 
+Spec. Agriculture & $0.010$ & $0.136$$^{**}$ & $3.921$$^{***}$ & $ $-$2.611$$^{***}$ & $ $-$1.456$$^{***}$ \\ 
+% spec\_K & $0.015$ & $0.213$ & $6.157$ & $$-$4.100$ & $$-$2.286$ \\  
+Spec. Finances & $0.015$ & $0.213$ & $6.157$$^{**}$ & $ $-$4.100$$^{*}$ & $ $-$2.286$$^{*}$ \\ 
+%spec\_BE & $0.011$ & $0.156$ & $4.512$ & $$-$3.004$ & $$-$1.675$ \\ 
+Spec. Industry & $0.011$ & $0.156$$^{***}$ & $4.512$$^{***}$ & $ $-$3.004$$^{***}$ & $ $-$1.675$$^{***}$ \\ 
+% spec\_GI & $0.002$ & $0.030$ & $0.865$ & $$-$0.576$ & $$-$0.321$ \\ 
+Spec. Trade, Accommodation & $0.002$ & $0.005$ & $0.143$ & $ $-$0.099$ & $ $-$0.049$ \\
+%spec\_RU & $$-$0.007$ & $$-$0.095$ & $$-$2.740$ & $1.825$ & $1.017$ \\ 
+Spec. Other Services & $ $-$0.007$ & $ $-$0.095$ & $ $-$2.740$ & $1.825$ & $1.017$ \\ 
+%BS & $0.005$ & $0.066$ & $1.913$ & $$-$1.274$ & $$-$0.710$ \\ 
+Business Services & $0.005$ & $0.066$$^{*}$ & $1.913$$^{**}$ & $ $-$1.274$$^{**}$ & $ $-$0.710$$^{**}$ \\ 
 
-\hline \\[-1.8ex] 
-\textit{Significance levels:}  & \multicolumn{5}{l}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\\
+\multicolumn{6}{c}{\textit{Human Capital Variables}}\\
+%init\_scientists\_share & $0.054$ & $0.745$ & $21.529$ & $$-$14.336$ & $$-$7.992$ \\ 
+Share of Scientists & $0.054$ & $0.745$$^{*}$ & $21.529$$^{**}$ & $ $-$14.336$$^{**}$ & $ $-$7.992$$^{**}$ \\  
+%init\_ter\_edu & $$-$0.002$ & $$-$0.021$ & $$-$0.614$ & $0.409$ & $0.228$ \\ 
+% init\_eqi & $0$ & $0.002$ & $0.046$ & $$-$0.031$ & $$-$0.017$ \\  
+
+Governance Quality & $0.000$ & $0.002$ & $0.046$ & $ $-$0.031$ & $ $-$0.017$ \\ 
+Tertiary Edu. Share  & $ $-$0.002$ & $ $-$0.021$ & $ $-$0.614$ & $0.409$ & $0.228$ \\
+\\
+\multicolumn{6}{c}{\textit{Geographic Determinants}}\\
+%capital & $0.002$ & $0.027$ & $0.294$ & $$-$0.227$ & $$-$0.096$ \\ 
+Capital & $0.002$ & $0.027$$^{**}$ & $0.294$$^{***}$ & $ $-$0.227$$^{***}$ & $ $-$0.096$$^{***}$ \\
+% metro & $0$ & $0.004$ & $0.149$ & $$-$0.091$ & $$-$0.062$ \\ 
+Metro area & $0.000$ & $0.004$ & $0.149$ & $ $-$0.091$ & $ $-$0.062$ \\ 
+% neigh\_highest\_income & $$-$0.001$ & $$-$0.010$ & $$-$0.287$ & $0.191$ & $0.107$ \\ 
+Highest Neighbour Income & $ $-$0.001$ & $ $-$0.010$$^{**}$ & $ $-$0.287$$^{**}$ & $0.191$$^{**}$ & $0.107$$^{**}$ \\
+% border\_region & $0.001$ & $0.009$ & $0.252$ & $$-$0.162$ & $$-$0.100$ \\
+Border Region & $0.001$ & $0.009$$^{**}$ & $0.252$$^{***}$ & $ $-$0.162$$^{***}$ & $ $-$0.100$$^{***}$ \\ 
+\hline \hline \\[-1.8ex]
+McFadden's $R^{2}$: 0.42  \\
+Observations: 267\\
+No. of Parameters 17\\
+\hline
+\textit{\small{Significance levels:}}  & \multicolumn{3}{l}{\small{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}}
 \end{tabular}
 \end{minipage}}
 \end{table} 
 
 
-Table \ref{famd_selected_marginal_neigh_robust_filtered} shows the impact of the explanatory variables discussed in the previous section on the probability of membership in a given convergence club, tested via logistic regression.\footnote{As the table above incorporates two variables based on number of neighbouring regions, 9  regions with no neighbour were filtered out. Table \ref{famd_selected_marginal} in the Appendix shows the version of the exercises with all the regions and without the two variables.} We were interested in the impact of the initial conditions on future economic performance. Therefore, the 2008 values of the variables listed were used.\footnote{Table \ref{famd_selected_marginal} uses Factorial Analysis for Mixed Data (FAMD) as an imputation method to deal with the missing observations.}  Standard regression outputs are also reported in the Appendix for brevity. Marginal effects are calculated at the means of the independent variables and show the impact of one unit change in an explanatory variable on the probability that a certain region will enter a particular club \citep{carrolloglmx}.
+Using all the explanatory variables together in a single regression, as visible in Table \ref{famd_selected_marginal_neigh_robust_filtered}, we can see that any significant effect on the very first club is lost. However, the key conclusion from Tables \ref{famd_filtered_marginal_spec1}  and \ref{famd_filtered_marginal_spec2} seems to remain - we see strong positive impact of industry and human capital, represented by the share of scientist variable.  Compared to the partial results represented in the Tables above, the Financial services lose their impact on the higher club membership when we add control for capital cities. As visible in Table \ref{famd_selected_marginal_neigh_robust_filtered}, the variable loses significance beyond Club 3. Also, the marginal effect of the dummy variable representing metropolitan cities becomes insignificant, despite continuing impact of the capitals - this could suggest an increasing level of centralization of economic activity within the national borders. The key factor for membership in the first two clubs thus becomes the specialization in Manufacturing, which is positive and significant across the specifications.
 
-Our work can be compared to previous ones such as \citet{cutrini2019economic}, \citet{von2017regional}, and \citet{bartkowska2012regional}, and contributes to a discussion between initial GDP levels and sectoral specialization as primary determinants of economic destiny. Compared to \citet{cutrini2019economic}, who concentrates in a similar exercise on the initial specialization levels, we focus more on variables linked to NEG, such as agglomeration effects, innovation activity, or regional governance quality. Our choice of the time period (2008 - 2019) also allows us to concentrate on the development between the two crises. Last but not least, we consider the impact of changes in the observed variables. \footnote{The 2008 was chosen as the starting year of our analysis mainly because the change in Eurostat's classification of economic activity from NACE Rev. 1.1 to NACE Rev.2 which happened in 2008 and makes the sectoral specialization variables only partially comparable between 2008 and 2019. However, we include regression using the 2003 data in Table \ref{famd_selected_marginal_ecosys_robust_filtered} in the Appendix as a robustness check. The results confirm the main conclusions of this text.}
+In summary, the results suggest that regional economic well-being is determined by a combination of initial sectoral specialization and its ability to create functional local innovation environments. A specific category then seems to be the large metropolitan areas, and the capitals in particular, with their strong position in finance. Our results show the importance of industrial concentration, we can also note that this variable seems to be more important than the initial level of economic development. Similarly, variables related to the development of the knowledge-based economy lead to a higher club membership.
 
-As can be seen in Table \ref{famd_selected_marginal_neigh_robust_filtered} the magnitude of the marginal effects tend to peak around Club3 and weakens for the very top Club. There is a minimal impact on the top Club membership of any of our variables, this holds both in terms of significance and magnitude. 
-Analysing the impact of individual variables, we can first notice that the initial income per capita does have a significant effect on club membership, with higher initial GDP per capita in 2008 increasing the probability of being in the highest convergence clubs in 2019. Suggesting a certain level of inertia in the economic development.
- 
-On the other hand, we can see a positive impact of the structural specialization variables as suggested by \citet{cutrini2019economic}. Especially strong seems to be the impact of the specialization in Industry\footnote{Composed primarily of Manufacturing but also encompassing NACE Sections B, E, F (Mining, Electricity, gas, steam and air conditioning supply and Water supply) besides Manufacturing (NACE Section C) itself, which however plays a dominant role in the category.} and Finance and Insurance Services. Concentration of Financial Services, is among the most important predictors of Club 1 membership among the variables measuring sectoral specialization. However, when we add control for capital cities, as visible in Table \ref{famd_selected_marginal_neigh_robust_filtered}, it loses significance. The key factor for membership in the first two clubs thus becomes the specialization in Manufacturing, which is positive and significant across the specifications. These findings seem to be in line with two specific trends visible in present-day Europe - the first is the importance and emergence of the "Manufacturing Core" in its central part, and the second is the key role of the urban financial centres. Concentration in financial services appears, however, to overlap with the incidence of capital cities, putting their importance into question, speaking for the importance of agglomeration effects as suggested by New Economic Geography.
-We can also note the negative impact of the "Other Services" category that includes entertainment and recreation, on the probability of a higher club membership. This could be a result of the strong tourism dependence of the southern EU periphery. However, the marginal effects are never significant for this variable. In contrast, specialisation in business services has a positive impact on the probability of entering the highest clubs, yet again is not significant (with a significance level of 20\%).
+\subsection{Robustness checks}
+Apart from the variables included above, we also discuss two alternative specifications as a robustness check. The tables above incorporate variable measuring the income of their richest neighbour; this results in a small number of regions (9) being filtered out as they have no neighbours.\footnote{These regions are Cyprus, Madeira, the Balearic Islands, Ceuta and Melilla, Canary Islands, Guadeloupe, Martinique and Malta} Table \ref{famd_selected_marginal} in the Appendix shows the alternative version of the regression exercise with all the regions but leaving out the richest neighbour variable. We can see that our results regarding sectoral specialization are kept. We can notice that specialization in manufacturing and the human capital variables are closer to having significant impact on the top club.
 
-In terms of other variables, our result suggest positive impact of metropolitan areas and especially capital cities, which seem to be a predictor of high club membership. In fact, the highest club is primarily composed of capital cities (6 of 10 regions in Club 1 contain a capital city). Despite that, the marginal effect of the dummy variable representing regions with capital cities on the membership in the highest club is not significant.
-
-We can also see a strong effect of the variables connected with research activity, such as the share of scientists and patent activity.\footnote{As the research activity variables, including the Regional Innovation Index, are highly correlated, Table \ref{famd_selected_marginal} shows only the share of the scientists, which turned out to be the most impactful variable, other results are available upon request.} The results suggest that the initial share of scientists has a large impact on the probability of entering the First Club in Table \ref{famd_selected_marginal_neigh_robust_filtered}, however it is not significant. Importance of this variable is nevertheless confirmed by table \ref{famd_delta_marginal_neigh_filtered},  where we see that increase in share of scientist significantly increase probability of entering the top performing clubs. We reach similar result for the share of the tertiary educated in the population. The variable's marginal effects in Table \ref{famd_delta_marginal_neigh_filtered}  suggest there is positive role of more educated population on relative economic development.  Initial levels of this variable turns out to be also significant, as visible in table \ref{famd_selected_marginal_neigh_robust_filtered}  , the marginal effects however give rather counterintuitive results with a positive association with the lower clubs. One of the possible interpretations of these results could be the importance of applied research capable of producing practical innovations that benefit the regional business ecosystem.
-
-As for the remaining variables, the impact of the Quality of Governance index is positive and significant, confirming the conclusions of \citet{rodriguez2020institutional} . The two variables using the income level of the neighbouring regions do not have significant impact on the Club 1 membership is insignificant, yet otherwise seems to have significant impact on the club membership. While presence of a high income regions increases economic chances of its neighbours, the opposite holds for the average income of all neighbours. These results suggest that indeed regions' location matters, and however as discussed for the geographic composition of the clubs, results for the average neighbour income could suggest relative low tendency of clubs to cluster together as shown in Figure \ref{clubs_graphic}  and rather increasing disparities among the clubs in last few years. Last but not least, dummy denoting the border regions is also significant, with a positive effect, which is not really surprising as many of the capital cities and prosperous regions lies near the internal border of the EU.
-
-Table \ref{famd_delta_marginal_neigh_filtered} shows changes in the variables mentioned above between 2008 and 2019. We can see that changes in specialization have an insignificant effect on club membership, whereas regions further specializing in R\&D increased their chance of moving to the highest clubs. This shows that sectoral specialization is not sufficient on its own and has to be accompanied by a shift toward higher value-added products.
-
-
-
-% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: ne, srp 06, 2023 - 11:34:56
-\begin{table}[!htbp] \centering 
-\resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
-    \caption{Marginal effects: Logistic regression with merged Clubs and FAMD imputation. Using changes between 2008 and 2019 in the listed variables.} 
-  \label{famd_delta_marginal_neigh_filtered} 
-\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
- & Club 1 & Club 2 & Club 3 & Club 4 & Club 5 \\ 
-\hline \\[-1.8ex] 
-% delta\_gfcf & $0.025$ & $0.129$ & $0.645$ & $$-$0.292$ & $$-$0.508$ \\ 
-\(\Delta\) GFCF (logs) & $0.025$$^{**}$ & $0.129$$^{***}$ & $0.645$$^{***}$ & $ $-$0.292$$^{***}$ & $ $-$0.508$$^{***}$ \\ 
-% spec\_A\_delta & $0.051$ & $0.258$ & $1.285$ & $$-$0.581$ & $$-$1.012$ \\ 
-\(\Delta\) Spec. Agriculture & $0.051$ & $0.258$ & $1.285$ & $ $-$0.581$ & $ $-$1.012$ \\ 
-% spec\_K\_delta & $0.012$ & $0.062$ & $0.309$ & $$-$0.140$ & $$-$0.243$ \\ 
-\(\Delta\) Spec. Finances & $0.012$ & $0.062$ & $0.309$ & $ $-$0.140$ & $ $-$0.243$ \\ 
-%spec\_BE\_delta & $$-$0.041$ & $$-$0.207$ & $$-$1.031$ & $0.467$ & $0.812$ \\  
-\(\Delta\) Spec. Industry & $ $-$0.041$ & $ $-$0.207$ & $ $-$1.031$ & $0.467$ & $0.812$ \\
-% spec\_GI\_delta & $0.091$ & $0.465$ & $2.316$ & $$-$1.048$ & $$-$1.824$ \\ 
-\(\Delta\) Spec. Trade, Accommodation & $0.091$ & $0.465$ & $2.316$ & $ $-$1.048$ & $ $-$1.824$ \\ 
-% spec\_RU\_delta & $$-$0.051$ & $$-$0.262$ & $$-$1.307$ & $0.591$ & $1.029$ \\  
-\(\Delta\) Spec. Other Services & $ $-$0.051$ & $ $-$0.262$ & $ $-$1.307$ & $0.591$ & $1.029$ \\ 
-% delta\_BS & $$-$0.023$ & $$-$0.116$ & $$-$0.580$ & $0.262$ & $0.457$ \\ 
-\(\Delta\) Business Services & $ $-$0.023$ & $ $-$0.116$ & $ $-$0.580$ & $0.262$ & $0.457$ \\ 
-% delta\_scientist\_share & $1.803$ & $9.190$ & $45.792$ & $$-$20.715$ & $$-$36.070$ \\  
-\(\Delta\) Share of Scientists & $1.803$$^{**}$ & $9.190$$^{***}$ & $45.792$$^{***}$ & $ $-$20.715$$^{***}$ & $ $-$36.070$$^{***}$ \\ 
-% delta\_ter\_edu & $0.077$ & $0.392$ & $1.952$ & $$-$0.883$ & $$-$1.538$ \\ 
-\(\Delta\) Tertiary Edu. Share & $0.077$$^{**}$ & $0.392$$^{***}$ & $1.952$$^{***}$ & $ $-$0.883$$^{***}$ & $ $-$1.538$$^{***}$ \\ 
-% capital & $0.010$ & $0.048$ & $0.149$ & $$-$0.090$ & $$-$0.117$ \\ 
-Capital & $0.010$ & $0.048$$^{*}$ & $0.149$$^{***}$ & $ $-$0.090$$^{***}$ & $ $-$0.117$$^{***}$ \\ 
-% metro & $0$ & $0.001$ & $0.005$ & $$-$0.002$ & $$-$0.004$ \\ 
-Metro area & $0.000$ & $0.001$ & $0.005$ & $ $-$0.002$ & $ $-$0.004$ \\ 
-% delta\_eqi & $0$ & $$-$0.002$ & $$-$0.010$ & $0.005$ & $0.008$ \\  
-\(\Delta\) Governance Quality & $ 0.000 $ & $ $-$0.002$ & $ $-$0.010$ & $0.005$ & $0.008$ \\ 
-% delta\_highest\_income & $$-$0.007$ & $$-$0.035$ & $$-$0.173$ & $0.078$ & $0.137$ \\ 
-\(\Delta\) Highest Neighbour Income & $ $-$0.007$ & $ $-$0.035$ & $ $-$0.173$ & $0.078$ & $0.137$ \\
-% delta\_neigh\_avg\_income & $$-$0.003$ & $$-$0.016$ & $$-$0.079$ & $0.036$ & $0.063$ \\  
-\(\Delta\) Avg. Neighbours Income & $ $-$0.003$ & $ $-$0.016$ & $ $-$0.079$ & $0.036$ & $0.063$ \\ 
-Border Region & $0.000$ & $ $-$0.006$ & $ $-$0.030$ & $0.014$ & $0.024$ \\ 
-
-
-\hline \\[-1.8ex] 
-\end{tabular} 
-\end{minipage}}
-\end{table} 
-In summary, the results suggest that regional economic well-being is determined by a combination of initial sectoral specialization and its ability to support research activities and invest in its innovation environment. A specific category then seems to be the large metropolitan areas, and the capitals in particular, with their strong position in finance. Our results show the importance of industrial concentration, we can also note that this variable seems to be more important than the initial level of economic development. Similarly, variables related to the development of the knowledge-based economy lead to a higher club membership. Also interesting is the positive impact of specialization in agriculture. 
+As a second robustness check, we include regression using the 2003 data in Table \ref{famd_selected_marginal_ecosys_robust_filtered}.  2008 was chosen as the starting year of our analysis in the previous section, as it is the year when the change in Eurostat's classification of economic activity from NACE Rev. 1.1 to NACE Rev. 2 was applied.  Despite the correspondence in sectoral categories being imperfect (e.g. the business services had to be dropped), the results in Table \ref{famd_selected_marginal_ecosys_robust_filtered} confirm the main conclusions reached so far. The only significant difference seems to be less significant impact of capital and metro dummies on the top clubs.
 
 \section{Conclusion}
 
@@ -461,7 +471,8 @@ The regression results show that upward economic mobility among the EU regions i
  
 Bringing our results together, we see further confirmation of the center-periphery division in the EU, mainly in its "capitals versus the rest" form. We also see the top convergence clubs becoming more exclusive between 2015 and 2019 - shrinking to an area around Southern Germany, suggesting the validity of the Manufacturing Core hypothesis instead of the "Blue Banana" hypothesis. These changes also give more weight to the impact of sectoral specialization. Despite changes in club composition, we consistently confirm the importance of regional research as a success factor. We also confirm the importance of sectoral specialization in economic success. 
 
-The importance of manufacturing for economic growth in our results in the pre-covid Europe raises further questions in time of energy crisis that seems to undermine German competitiveness and threatens widespread deindustrialization of the “Core”. Facing this uncertainty, this stress even more the importance of building the human capital. Establishing research ecosystem centred around universities seems to be the most viable option. Elaborating on this perspective is however beyond score of this work.
+
+We see the key policy implication of this work in comparing the club convergence pattern between 2015 and 2019. This comparison points to the growing exclusivity of the top two convergence clubs and also documents their significant geographic transformation from the "Blue Banana" to the "Manufacturing Core," which is sectorally much narrower within a very short period of only four years. Moreover, this change happened during a time of relative economic expansion in Europe, showing that the benefits of economic growth are not shared equally between the EU regions. Connected to this topic is the importance of manufacturing for economic growth in pre-COVID Europe, as suggested by the results. However, this manufacturing-based growth that was in place in THE critical part of the EU between 2015 and 2019 seems to be in question in a time of energy crisis that undermines German competitiveness and threatens widespread deindustrialization of the "Core." This highlights the need to find a new growth model for Europe.
 
 
 
@@ -485,7 +496,8 @@ The model departs from a variation of the neoclassical growth model where the tr
 \citeauthor{phillips2007transition} assume that $\beta_{it}$ is an increasing function of the technological progress parameter $x_{it}$ and therefore can explain divergence and income traps among countries (or regions).
 
 If we assume $x_{it}t$ to contain both idiosyncratic and shared elements across economies and we express equation \eqref{eq3} as
-\begin{equation} \label{eq4} y_{it} = (\frac{ y_i^* + a_{i0} + (y_{i0} - y_i^*)e^{-\beta_{it}t} + x_{it}t}{\mu_t})\mu_t = \delta_{it}\mu_t  \end{equation}
+\begin{equation} \label{eq4} y_{it} = \left(\frac{ y_i^* + a_{i0} + (y_{i0} - y_i^*)e^{-\beta_{it}t} + x_{it}t}{\mu_t}\right)\mu_t = \delta_{it}\mu_t  \end{equation}
+
 
 With $\mu_t$ representing a common growth component.
 $\mu_t$ is a broadly defined trend that can have both deterministic and stochastic component and can arise, for example, from knowledge and technology sharing among countries. $\mu_t$ also determines the common growth in the steady state. $\delta_{it}$ then captures how much is a particular economy close to steady state growth represented by $\mu_t$.
@@ -503,7 +515,7 @@ In the convergence test itself, the authors focus on cross-sectional convergence
 As the ultimate growth convergence implies \(h_{it} \rightarrow 1\), the value $H_{t}$, which can also be interpreted as a quadratic distance of the club from the common limit, has to converge to zero with time going to infinity. If it remains positive, we conclude that convergence did not happen \citep{phillips2009economic}.
 
 The test itself is then motivated by the problem that it is relatively hard to distinguish whether $H_t$ converges to zero or to a constant. \citet{phillips2007transition} therefore developed a model based on following OLS regression, together with a testing procedure introduced later. They first show that under the model specification shown above the term $H_{t}$ has the following limiting form: \(H_{t} = \frac{A}{log (t)^2t^{2\alpha}}\) as \(t \rightarrow \infty\), which then leads to the final formulation of log $t$ regression:
-\begin{equation}\label{eq10}\log(\frac{H_1}{H_t})-2\log(\log(t)) = a + b\log(t) + u_t\end{equation}
+\begin{equation}\label{eq10}\log\left(\frac{H_1}{H_t}\right)-2\log(\log(t)) = a + b\log(t) + u_t\end{equation}
 
 The test (called the log $t$ convergence test) is then one-sided $t$-test test of convergence against no or partial convergence. The coefficient $b$ converges in probability to the speed of the convergence parameter $2\alpha$ and the convergence hypothesis is tested using a one-sided $t$-test of the inequality \(\alpha \geq 0 \), using the estimated parameter $b$ with the HAC standard errors. In more detail, the $t$-statistic of the test parameter converges to either positive infinity in case of \(\alpha > 0 \) or weakly to a standard normal distribution in case of \(\alpha = 0\). Under the alternative, the estimate of $b$ converges to zero, but the $t$-statistics diverges to $-\infty$.
 
@@ -706,44 +718,118 @@ Patent activity  & 115.381 & 132.421 & 0.177 & 13.712 & 160.176 & 626.102 \\
 %init\_inno & 0.949 & 0.460 & 0.000 & 0.530 & 1.314 & 1.916 \\ 
 %init\_migration & 3.177 & 5.132 & $-$10.300 & $-$0.175 & 5.875 & 21.300 \\ 
 Highest Neighbour Income & 10.262 & 0.411 & 9.159 & 10.071 & 10.513 & 11.826 \\ 
-Avg. Neighbours Income &  10.022 & 0.330 & 8.971 & 9.902 & 10.260 & 10.622 \\ 
 \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
 
 
-% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: st, čvc 06, 2022 - 22:40:39ř
-%\begin{table}[!htbp] \centering 
-%  \caption{} 
-%  \label{famd_alter_marginal} 
-%\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
-%\\[-1.8ex]\hline 
-%\hline \\[-1.8ex] 
-% & effect.1 & effect.2 & effect.3 & effect.4 & effect.5 \\ 
-%\hline \\[-1.8ex] 
-%log\_init\_gdp & $0.026$$^{***}$ & $0.160$$^{***}$ & $1.727$$^{***}$ & $ %$-$0.879$$^{***}$ & $ $-$1.034$$^{***}$ \\ 
-%init\_gfcf & $0.000$ & $0.000$ & $0.002$ & $ $-$0.001$ & $ $-$0.001$ \\ 
-%spec\_A & $0.037$ & $0.225$$^{*}$ & $2.436$$^{**}$ & $ $-$1.239$$^{*}$ & $ $-$1.459$$^{**}$ \\ 
-%spec\_K & $0.133$$^{*}$ & $0.809$$^{**}$ & $8.742$$^{***}$ & $ $-$4.449$$^{**}$ & $ $-$5.235$$^{**}$ \\ 
-%spec\_BE & $0.048$$^{**}$ & $0.290$$^{***}$ & $3.130$$^{***}$ & $ $-$1.593$$^{***}$ & $ $-$1.875$$^{***}$ \\ 
-%spec\_GI & $0.002$ & $0.013$ & $0.140$ & $ $-$0.071$ & $ $-$0.084$ \\ 
-%spec\_RU & $ $-$0.042$ & $ $-$0.252$ & $ $-$2.726$ & $1.387$ & $1.632$ \\ 
-%BS & $0.016$ & $0.097$ & $1.047$ & $ $-$0.533$ & $ $-$0.627$ \\ 
-%init\_inno & $ $-$0.004$ & $ $-$0.026$ & $ $-$0.278$$^{*}$ & $0.141$ & $0.166$ \\ 
-%urban & $0.001$ & $0.007$ & $0.069$ & $ $-$0.035$ & $ $-$0.042$ \\ 
-%rural & $ $-$0.002$ & $ $-$0.011$ & $ $-$0.152$ & $0.057$$^{*}$ & $0.107$ \\ 
-%init\_eqi & $0.001$ & $0.006$ & $0.068$ & $ $-$0.035$ & $ $-$0.041$ \\ 
-%\hline \\[-1.8ex] 
-%\end{tabular} 
-%\end{table}
+\begin{table}[!htbp] \centering 
+\resizebox{0.75 \textwidth}{!}{\begin{minipage}{\textwidth}
+  \captionsetup{justification=centering}
+
+  \caption{Regression results: Logistic regression with Sectoral and Human capital variables. Merged Convergence Clubs, FAMD imputation and robust standard errors.} 
+  \label{model_famd_filtered_spec1}
+\centering
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Club \\ 
+\hline \\[-1.8ex] 
+ GDP per capita (logs) & $-$7.492$^{***}$ \\ 
+  & (0.860) \\ 
+  & \\ 
+ GFCF (logs) & 0.002 \\ 
+  & (0.208) \\ 
+  & \\ 
+ Spec. Agriculture  & $-$14.049$^{***}$ \\ 
+  & (3.769) \\ 
+  & \\ 
+ Spec. Finances & $-$36.010$^{***}$ \\ 
+  & (13.605) \\ 
+  & \\ 
+ Spec. Industry & $-$15.963$^{***}$ \\ 
+  & (2.927) \\ 
+  & \\ 
+ Spec. Trade, Accommodation & $-$3.659 \\ 
+  & (4.369) \\ 
+  & \\ 
+ Spec. Other Services & 17.237 \\ 
+  & (11.817) \\ 
+  & \\ 
+ Business Services & $-$6.603$^{*}$ \\ 
+  & (3.529) \\ 
+  & \\ 
+ Share of Scientists  & $-$152.849$^{***}$ \\ 
+  & (39.670) \\ 
+  & \\ 
+ Tertiary Edu. Share & 3.504$^{**}$ \\ 
+  & (1.599) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 267 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\end{minipage}
+}
+\end{table} 
+
+
+\begin{table}[!htbp] \centering 
+\resizebox{0.75 \textwidth}{!}{\begin{minipage}{\textwidth}
+  \captionsetup{justification=centering}
+  \caption{Regression results: Logistic regression with with Geographic determinants. Merged Convergence Clubs, FAMD imputation and robust standard errors.} 
+  \label{model_famd_filtered_spec1}
+\centering
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Club \\ 
+\hline \\[-1.8ex] 
+ GDP per capita (logs) & $-$7.633$^{***}$ \\ 
+  & (0.786) \\ 
+  & \\ 
+ GFCF (logs)  & 0.180 \\ 
+  & (0.212) \\ 
+  & \\ 
+ Capital & $-$0.977$^{***}$ \\ 
+  & (0.362) \\ 
+  & \\ 
+ Metro area & $-$1.073$^{***}$ \\ 
+  & (0.384) \\ 
+  & \\ 
+ Governance Quality & 0.248 \\ 
+  & (0.187) \\ 
+  & \\ 
+ Highest Neighbour Income & 1.236$^{***}$ \\ 
+  & (0.388) \\ 
+  & \\ 
+ Border Region & $-$1.257$^{***}$ \\ 
+  & (0.277) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 267 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\end{minipage}
+}
+\end{table} 
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: st, čvc 13, 2022 - 23:17:43
 \begin{table}[!htbp] \centering 
-\resizebox{0.9 \textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{Regression results: Logistic regression with merged Convergence Clubs, FAMD imputation and robust standard errors} 
-  \label{model_famd_selected} 
+\resizebox{0.75 \textwidth}{!}{\begin{minipage}{\textwidth}
+  \captionsetup{justification=centering}
+  \caption{Regression results: Logistic regression with merged Convergence Clubs, FAMD imputation and robust standard errors.} 
+  \label{model_famd_neigh_filtered} 
+\centering
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
@@ -751,44 +837,50 @@ Avg. Neighbours Income &  10.022 & 0.330 & 8.971 & 9.902 & 10.260 & 10.622 \\
 \cline{2-2} 
 \\[-1.8ex] &   \\ 
 \hline \\[-1.8ex] 
- GDP per capita (logs) & $-$7.451$^{***}$ \\ 
-  & (0.927) \\ 
+ GDP per capita (logs) & $-$9.555$^{***}$ \\ 
+  & (1.081) \\ 
   & \\ 
- GFCF (logs) & 0.287 \\ 
-  & (0.231) \\ 
+ GFCF (logs) & 0.095 \\ 
+  & (0.245) \\ 
   & \\ 
- Spec. Agriculture  & $-$14.233$^{***}$ \\ 
-  & (4.981) \\ 
+ Spec. Agriculture  & $-$17.175$^{***}$ \\ 
+  & (4.322) \\ 
   & \\ 
- Spec. Finances & $-$25.746$^{*}$ \\ 
-  & (13.112) \\ 
+ Spec. Finances & $-$26.968$^{*}$ \\ 
+  & (15.169) \\
   & \\ 
- Spec. Industry & $-$16.818$^{***}$ \\ 
-  & (2.984) \\ 
+ Spec. Industry & $-$19.760$^{***}$ \\ 
+  & (3.468) \\ 
   & \\ 
- Spec. Trade, Accommodation & $-$6.971 \\ 
-  & (4.680) \\ 
+ Spec. Trade, Accommodation & $-$3.790 \\ 
+  & (4.763) \\ 
   & \\ 
- Spec. Other Services  & 4.218 \\ 
-  & (14.309) \\ 
+ Spec. Other Services  & 12.003 \\ 
+  & (12.120) \\  
   & \\ 
- Business Services & $-$4.169 \\ 
-  & (3.748) \\ 
+ Business Services & $-$8.381$^{**}$ \\ 
+  & (3.880) \\ 
   & \\ 
- Share of Scientists & $-$111.764$^{***}$ \\ 
-  & (38.754) \\ 
+ Share of Scientists & $-$94.294$^{**}$ \\ 
+  & (45.829) \\  
   & \\ 
- Tertiary Edu. Share  & 3.231$^{**}$ \\ 
-  & (1.635) \\ 
+ Tertiary Edu. Share  & 2.688 \\ 
+  & (1.671) \\  
   & \\ 
- Capital & $-$1.332$^{***}$ \\ 
-  & (0.473) \\ 
+ Capital & $-$1.713$^{***}$ \\ 
+  & (0.455) \\ 
   & \\ 
- Metro area  & $-$0.659$^{*}$ \\ 
-  & (0.385) \\ 
+ Metro area  & $-$0.631 \\ 
+  & (0.446) \\  
   & \\ 
- Governance Quality & $-$0.126 \\ 
-  & (0.238) \\ 
+ Governance Quality & $-$0.203 \\ 
+  & (0.252) \\
+  & \\
+ Highest Neighbour Income & 1.258$^{***}$ \\ 
+  & (0.475) \\ 
+  & \\ 
+ Border Region & $-$1.123$^{***}$ \\ 
+  & (0.310) \\ 
   & \\ 
 \hline \\[-1.8ex] 
 Observations & 276 \\ 
@@ -810,7 +902,7 @@ Observations & 276 \\
 \resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
     \caption{Marginal effects: Logistic regression with merged Clubs, FAMD imputation and robust standard errors.}
   \label{famd_selected_marginal} 
-\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+\begin{tabular}{@{\extracolsep{5pt}} lccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
  & Club 1 & Club 2 & Club 3 & Club 4 & Club 5 \\ 
@@ -819,7 +911,9 @@ Observations & 276 \\
 GDP per capita (logs) & $0.010$$^{*}$ & $0.102$$^{***}$ & $1.776$$^{***}$ & $ $-$1.052$$^{***}$ & $ $-$0.835$$^{***}$ \\ 
 % init\_gfcf & $0$ & $$-$0.004$ & $$-$0.063$ & $0.037$ & $0.030$ \\  
 GFCF (logs) & $0.000$ & $ $-$0.004$ & $ $-$0.063$ & $0.037$ & $0.030$ \\ 
-% spec\_A & $0.021$ & $0.213$ & $3.705$ & $$-$2.196$ & $$-$1.743$ \\ 
+% spec\_A & $0.021$ & $0.213$ & $3.705$ & $$-$2.196$ & $$-$1.743$ \\
+\multicolumn{6}{c}{\textit{Sectoral Variables}}\\
+
 Spec. Agriculture & $0.021$$^{*}$ & $0.213$$^{**}$ & $3.705$$^{***}$ & $ $-$2.196$$^{**}$ & $ $-$1.743$$^{***}$ \\ 
 % spec\_K & $0.033$ & $0.342$ & $5.938$ & $$-$3.519$ & $$-$2.793$ \\ 
 Spec. Finances  & $0.033$ & $0.342$ & $5.938$$^{**}$ & $ $-$3.519$$^{**}$ & $ $-$2.793$$^{*}$ \\ 
@@ -833,20 +927,25 @@ Spec. Other Services & $ 0.001$ & $ 0.007$ & $ 0.123$ & $ $-$0.073$ & $ $-$0.058
 %BS & $0.007$ & $0.072$ & $1.246$ & $$-$0.738$ & $$-$0.586$ \\ 
  
 Business Services & $0.007$ & $0.072$ & $1.246$ & $ $-$0.738$ & $ $-$0.586$ \\ 
-% init\_scientists\_share & $0.160$ & $1.638$ & $28.472$ & $$-$16.876$ & $$-$13.394$ \\   
-Share of Scientists & $0.160$$^{*}$ & $1.638$$^{**}$ & $28.472$$^{***}$ & $ $-$16.876$$^{***}$ & $ $-$13.394$$^{***}$ \\ 
+\multicolumn{6}{c}{\textit{Human Capital Variables}}\\
+% init\_scientists\_share & $0.160$ & $1.638$ & $28.472$ & $$-$16.876$ & $$-$13.394$ \\
+Share of Scientists & $0.160$$^{*}$ & $1.638$$^{**}$ & $28.472$$^{***}$ & $ $-$16.876$$^{***}$ & $ $-$13.394$$^{***}$ \\
+%init\_eqi & $0$ & $0.002$ & $0.040$ & $$-$0.023$ & $$-$0.019$ \\ 
+Governance Quality & $0.000$ & $0.002$ & $0.040$ & $ $-$0.023$ & $ $-$0.019$ \\ 
 % init\_ter\_edu & $$-$0.004$ & $$-$0.046$ & $$-$0.798$ & $0.473$ & $0.375$ \\  
 Tertiary Edu. Share & $ $-$0.004$ & $ $-$0.046$$^{*}$ & $ $-$0.798$$^{**}$ & $0.473$$^{**}$ & $0.375$$^{**}$ \\ 
+\multicolumn{6}{c}{\textit{Geographic Determinants}}\\
 % capital & $0.003$ & $0.032$ & $0.253$ & $$-$0.181$ & $$-$0.107$ \\  
 Capital & $0.003$ & $0.032$$^{*}$ & $0.253$$^{***}$ & $ $-$0.181$$^{***}$ & $ $-$0.107$$^{***}$ \\
 % metro & $0.001$ & $0.008$ & $0.173$ & $$-$0.089$ & $$-$0.092$ \\ 
 Metro area & $0.001$ & $0.008$$^{*}$ & $0.173$$^{*}$ & $ $-$0.089$$^{**}$ & $ $-$0.092$ \\ 
-%init\_eqi & $0$ & $0.002$ & $0.040$ & $$-$0.023$ & $$-$0.019$ \\ 
-Governance Quality & $0.000$ & $0.002$ & $0.040$ & $ $-$0.023$ & $ $-$0.019$ \\ 
 % border\_region & $0.001$ & $0.010$ & $0.173$ & $$-$0.100$ & $$-$0.084$ \\ 
 Border Region & $0.001$ & $0.010$$^{**}$ & $0.173$$^{**}$ & $ $-$0.100$$^{**}$ & $ $-$0.084$$^{**}$ \\ 
-\hline 
-\hline \\[-1.8ex]
+\hline \hline \\[-1.8ex]
+McFadden's $R^{2}$: 0.365 \\
+Observations: 276\\
+No. of Parameters 14\\
+\hline
 \textit{Significance levels:}  & \multicolumn{5}{l}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
 \end{tabular}
 \end{minipage}}
@@ -857,46 +956,48 @@ Border Region & $0.001$ & $0.010$$^{**}$ & $0.173$$^{**}$ & $ $-$0.100$$^{**}$ &
 \resizebox{0.85\textwidth}{!}{\begin{minipage}{\textwidth}
   \caption{Marginal effects: Logistic regression with merged Clubs, initial values from 2003 are used. Sectoral variables use NACE Rev. 1.1 clasification  FAMD imputation and robust standard errors. 9 regions with no mighbouring regions have been removed.} 
   \label{famd_selected_marginal_ecosys_robust_filtered} 
-\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+\begin{tabular}{@{\extracolsep{5pt}} lccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
  & Club 1 & Club 2 & Club 3 & Club 4 & Club 5 \\ 
 \hline \\[-1.8ex] 
-%log\_init\_gdp & $0.012$ & $0.164$ & $1.890$ & $$-$1.105$ & $$-$0.962$ \\ 
-GDP per capita (logs) & $0.012$$^{*}$ & $0.164$$^{***}$ & $1.890$$^{***}$ & $ $-$1.105$$^{***}$ & $  $-$0.962$$^{***}$ \\
-%init\_gfcf & $0$ & $$-$0.004$ & $$-$0.049$ & $0.028$ & $0.025$ \\ 
+%log\_init\_gdp & $0.013$ & $0.112$ & $1.043$ & $$-$0.570$ & $$-$0.599$ \\ 
+GDP per capita (logs) & $0.013$$^{**}$ & $0.112$$^{***}$ & $1.043$$^{***}$ & $ $-$0.570$$^{***}$ & $  $-$0.599$$^{***}$ \\
+%init\_gfcf & $0.001$ & $$-$0.008$ & $$-$0.075$ & $0.041$ & $0.043$ \\ 
 
-GFCF (logs) & $0$.000 & $ $-$0.004$ & $ $-$0.049$ & $0.028$ & $0.025$ \\
-%spec\_AB & $0.006$ & $0.086$ & $0.992$ & $$-$0.580$ & $$-$0.505$ \\ 
- 
-Spec. Agriculture, fishing & $0.006$ & $0.086$ & $0.992$ & $ $-$0.580$ & $ $-$0.505$ \\ 
-% spec\_CE & $0.014$ & $0.195$ & $2.248$ & $$-$1.313$ & $$-$1.144$ \\ 
- 
-Spec. Industry & $0.014$ & $0.195$$^{**}$ & $2.248$$^{***}$ & $ $-$1.313$$^{***}$ & $ $-$1.144$$^{***}$ \\ 
-%spec\_GI & $$-$0.007$ & $$-$0.096$ & $$-$1.105$ & $0.646$ & $0.562$ \\ 
-Spec. Trade, Accomodation & $ $-$0.007$ & $ $-$0.096$ & $ $-$1.105$ & $0.646$ & $0.562$ \\ 
-% spec\_JK & $0.031$ & $0.446$ & $5.123$ & $$-$2.994$ & $$-$2.607$ \\ 
-Spec. Finance, Real estate & $0.031$ & $0.446$$^{**}$ & $5.123$$^{***}$ & $ $-$2.994$$^{***}$ & $ $-$2.607$$^{**}$ \\ 
-%init\_scientists\_share & $0.087$ & $1.231$ & $14.158$ & $$-$8.272$ & $$-$7.204$ \\ 
-Share of Scientists & $0.087$ & $1.231$ & $14.158$ & $ $-$8.272$ & $ $-$7.722$ \\ 
-% init\_ter\_edu & $$-$0.004$ & $$-$0.058$ & $$-$0.666$ & $0.389$ & $0.339$ \\ 
-Tertiary Edu. Share & $ $-$0.004$ & $ $-$0.058$$^{*}$ & $ $-$0.666$$^{*}$ & $0.389$$^{*}$ & $0.339$$^{*}$ \\ 
-% capital & $0.001$ & $0.010$ & $0.092$ & $$-$0.058$ & $$-$0.044$ \\  
-Capital & $0.001$ & $0.010$ & $0.092$ & $ $-$0.058$ & $ $-$0.044$ \\ 
-% metro & $0$ & $0.004$ & $0.048$ & $$-$0.027$ & $$-$0.025$ \\ 
-Metro area & $0.000$ & $0.004$ & $0.048$ & $ $-$0.027$ & $ $-$0.025$ \\ 
-% neigh\_highest\_income & $0.002$ & $0.035$ & $0.405$ & $$-$0.237$ & $$-$0.206$ \\ 
-Highest Neighbour Income & $0.002$ & $0.035$$^{*}$ & $0.405$$^{**}$ & $ $-$0.237$$^{**}$ & $ $-$0.206$$^{**}$ \\ 
-%neigh\_avg\_income & $$-$0.010$ & $$-$0.142$ & $$-$1.632$ & $0.954$ & $0.831$ \\ 
-Avg. Neighbours Income & $ $-$0.010$ & $ $-$0.142$$^{***}$ & $ $-$1.632$$^{***}$ & $0.954$$^{***}$ & $0.831$$^{***}$ \\ 
-% border\_region & $0.002$ & $0.022$ & $0.242$ & $$-$0.134$ & $$-$0.131$ \\ 
-Border region & $0.002$ & $0.022$$^{***}$ & $0.242$$^{***}$ & $ $-$0.134$$^{***}$ & $ $-$0.131$$^{***}$ \\ 
-\hline \\[-1.8ex] 
+GFCF (logs) & $ $-$0.001$ & $ $-$0.008$$^{*}$  & $ $-$0.075$$^{*}$ & $0.041$$^{*}$ & $0.043$$^{*}$ \\
+\multicolumn{6}{c}{\textit{Sectoral Variables}}\\
+
+%spec\_AB & $0.019$ & $0.158$ & $1.472$ & $$-$0.804$ & $$-$0.845$ \\ 
+Spec. Agriculture, fishing & $0.019$ & $0.158$ & $1.472$$^{*}$ & $ $-$0.804$ & $ $-$0.845$$^{*}$ \\ 
+% spec\_CE & $0.036$ & $0.302$ & $2.820$ & $$-$1.540$ & $$-$1.619$ \
+Spec. Industry & $0.036$$^{*}$ & $0.302$$^{***}$ & $2.820$$^{***}$ & $ $-$1.540$$^{***}$ & $ $-$1.619$$^{***}$ \\ 
+%spec\_GI & $$-$0.004$ & $$-$0.030$ & $$-$0.280$ & $0.153$ & $0.161$ \\ 
+Spec. Trade, Accomodation & $ $-$0.004$ & $ $-$0.030$ & $ $-$0.280$ & $0.153$ & $0.161$ \\ 
+% spec\_JK & $0.077$ & $0.644 & $6.007$ & $$-$3.280$ & $$-$3.448$ \\ 
+Spec. Finance, Real estate & $0.077$$^{*}$ & $0.644$$^{***}$ & $6.007$$^{***}$ & $ $-$3.280$$^{***}$ & $ $-$3.448$$^{**}$ \\ 
+%init\_scientists\_share & $0.230$ & $1.921$ & $17.921$ & $$-$9.787$ & $$-$10.286$ \\ 
+\multicolumn{6}{c}{\textit{Human Capital Variables}}\\
+Share of Scientists & $0.230$ & $1.921$$^{*}$ & $17.921$$^{**}$ & $ $-$9.787$$^{**}$ & $ $-$10.286$$^{*}$ \\ 
+% init\_ter\_edu & $$-$0.010$ & $$-$0.079$ & $$-$0.740$ & $0.404$ & $0.424$ \\ 
+Tertiary Edu. Share & $ $-$0.010$ & $ $-$0.079$$^{*}$ & $ $-$0.740$$^{**}$ & $0.404$$^{**}$ & $0.424$$^{**}$ \\
+\multicolumn{6}{c}{\textit{Geographic Determinants}}\\
+% capital & $0.005$ & $0.037$ & $0.195$ & $$-$0.132$ & $$-$0.104$ \\  
+Capital & $0.005$ & $0.037$ & $0.195$$^{***}$ & $ $-$0.132$$^{**}$ & $ $-$0.104$$^{***}$ \\ 
+% metro & $0.001$ & $0.009$ & $0.092$ & $$-$0.046$ & $$-$0.056$ \\ 
+Metro area & $0.001$ & $0.009$ & $0.092$ & $ $-$0.046$ & $ $-$0.056$ \\ 
+% neigh\_highest\_income & $$-$0.004$ & $$-$0.029$ & $$-$0.273$ & $0.149$ & $0.157$ \\ 
+Highest Neighbour Income & $ $-$0.004$ & $ $-$0.029$$^{**}$ & $ $-$0.273$$^{**}$ & $ 0.149$$^{**}$ & $ 0.157$$^{**}$ \\ 
+Border region & $0.003$$^{*}$ & $0.029$$^{***}$ & $0.258$$^{***}$ & $ $-$0.132$$^{***}$ & $ $-$0.158$$^{***}$ \\ 
+\hline \hline \\[-1.8ex]
+McFadden's $R^{2}$: 0.315 \\
+Observations: 267\\
+No. of Parameters 12\\
+\hline
 \textit{Significance levels:}  & \multicolumn{5}{l}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
 \end{tabular}
 \end{minipage}}
 \end{table} 
-
 
 
 
@@ -927,7 +1028,7 @@ Border region & $0.002$ & $0.022$$^{***}$ & $0.242$$^{***}$ & $ $-$0.134$$^{***}
 
 \begin{figure}%
     \centering
-    \includegraphics[scale = 0.5]{RTC_mer_club3.png}
+    \includegraphics[scale = 0.5]{RTC_mer_club4.png}
     \caption{Transition paths for members of the forth Club}
     \label{paths4}
 \end{figure}
