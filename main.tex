@@ -65,8 +65,6 @@ In this paper, we provide a new look at convergence in the EU while focusing on 
 
 \bigskip
 
-\textbf{Acknowledgements:} This work was supported by the Grant Agency of the Czech Republic, Grant No. GACR no. 20-14990S. I would like to thank my supervisor, Jaromír Baxa, for his many insightful comments on this work.
-
 \end{abstract}
 \clearpage
 \setcounter{page}{1}
@@ -263,7 +261,7 @@ After identifying the convergence clubs, we analyzed the factors that influence 
 % Date and time: so, lis 04, 2017 - 22:15:15
 \begin{table}[!htbp] \centering 
 \resizebox{0.8\textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{\textbf{Explanatory variables - description}} 
+  \caption{\textbf{Explanatory variables - description.}} 
   \label{var_legend}
   \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{@{\extracolsep{5pt}} p{4cm}p{9.5cm}} 
@@ -281,9 +279,10 @@ Spec. Financial Services & Share of population from 15 to 64 years employed in F
 Spec. Trade, transport, accommodation \& food services & Share of population from 15 to 64 years employed in NACE Rev.2 categories G-I (2008). \\
 Spec. Other Services & Share of population from 15 to 64 years employed in Arts, entertainment and recreation (NACE Rev.2 categories R-U, 2008). \\
 Spec. Business Services & Specialization in Business Services (NACE Rev.2 subcategories J58, J62, J63, M69, M70, M71, M73, N78) in 2008.  \\ 
-Metropolitan regions & Dummy indicating presence of  a large urban area  \\
+Metropolitan area & Dummy indicating presence of a large urban area.  \\
+Capital & Dummy indicating a capital city.  \\
 Patent activity & Average number of patents per million inhabitants \\
-Regional Innovation Index & European and Regional Innovation Scoreboards an extension of the European innovation scoreboard (EIS) published by the European Commission between years 2014 and 2019
+Regional Innovation Index & European and Regional Innovation Scoreboards an extension of the European innovation scoreboard (EIS) published by the European Commission between years 2014 and 2019.
 \\
 Governance Quality & Measured by European Quality of Government Index (EQI) in 2010  \citep{charron2014regional}.\\
 Highest Neighbour Income & Log GDP per capita of the richest neighbouring region.  \\
@@ -306,7 +305,7 @@ Apart from the variable measuring sectoral specialization mentioned above, we al
 Next, we include the Regional Innovation Index issued by the European Commission and the European Quality of Government Index (EQI) with the assumption that better-governed regions should be attractive for both business and workers and, therefore, be able to perform better in all aspects of economic life.
 
 Inspired by New Economic Geography's emphasis on agglomeration economies as key drivers of growth but also drivers of territorial divergence. The two main equalizing 
-counterfactors should then be knowledge spillovers and within-country migration  \citep{iammarino2017regional}. Therefore, we included dummies measuring the level of regional urbanization and indicating capital cities. %As an alternative, we utilize Eustostat's distinction between urban, rural and intermediate areas.
+counterfactors should then be knowledge spillovers and within-country migration  \citep{iammarino2017regional}. Therefore, we included dummies measuring the level of regional urbanization and indicating capital cities. We also included a dummy variable for border regions. %As an alternative, we utilize Eustostat's distinction between urban, rural and intermediate areas.
 Last but not least, we use income level of the richest neighbour of a given region to check the impact of a region's surrounding.
 
 The next section shows the impact of the explanatory variables discussed above on the probability of membership in a given convergence club, tested via logistic regression. More specifically, we were interested in the impact of the initial conditions on future economic performance. Therefore, the 2008 values of the listed variables were used.\footnote{Models presented below use Factorial Analysis for Mixed Data (FAMD) as an imputation method to deal with the missing observations.}
@@ -319,7 +318,7 @@ The results of the ordered logistic regression are presented in the tables below
 % Date and time: čt, srp 24, 2023 - 20:47:57
 \begin{table}[!htbp] \centering 
 \resizebox{0.8\textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{\textbf{Marginal effects of Logistic regression with Sectoral and Human capital variables (2008 levels). Logistic regression with merged Clubs, FAMD imputation and robust standard errors.}}
+  \caption{\textbf{Marginal effects of Logistic regression with Sectoral and Human capital variables (2008 levels). Logistic regression with merged Clubs, FAMD imputation and robust standard errors. Nine regions with no neighbouring regions removed.}}
   \label{famd_filtered_marginal_spec1}
 \begin{tabular}{@{\extracolsep{5pt}} lccccc} 
 \\[-1.8ex]\hline 
@@ -384,7 +383,7 @@ We can also note the negative impact of the "Other Services" category, which inc
 % Date and time: pá, srp 25, 2023 - 08:30:02
 \begin{table}[!htbp] \centering 
 \resizebox{0.8\textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{\textbf{Marginal effects of Logistic regression with Geographic determinants (2008 levels). Logistic regression with merged Clubs, FAMD imputation and robust standard errors.}} 
+  \caption{\textbf{Marginal effects of Logistic regression with Geographic determinants (2008 levels). Logistic regression with merged Clubs, FAMD imputation and robust standard errors. Nine regions with no neighbouring regions removed.}} 
   \label{famd_filtered_marginal_spec2} 
 \begin{tabular}{@{\extracolsep{5pt}} lccccc} 
 \\[-1.8ex]\hline 
@@ -434,7 +433,7 @@ Table \ref{famd_filtered_marginal_spec2} further shows that the presence of a hi
 % Date and time: so, srp 05, 2023 - 22:21:23
 \begin{table}[!htbp] \centering
 \resizebox{0.75\textwidth}{!}{\begin{minipage}{\textwidth}
-  \caption{\textbf{Marginal effects: Logistic regression with merged Clubs, FAMD imputation and robust standard errors (variables in 2008 levels). 9 regions with no neighbouring regions have been removed.}} 
+  \caption{\textbf{Marginal effects: Logistic regression with merged Clubs, FAMD imputation and robust standard errors (variables in 2008 levels). Nine regions with no neighbouring regions removed.}} 
   \label{famd_selected_marginal_neigh_robust_filtered} 
 \begin{tabular}{@{\extracolsep{5pt}} lccccc} 
 \\[-1.8ex]\hline 
@@ -553,6 +552,8 @@ Bringing our results together, we see further confirmation of the center-periphe
 
 We see the key policy implication of this work in comparing the club convergence pattern between 2015 and 2019. This comparison points to the growing exclusivity of the top two convergence clubs and also documents their significant geographic transformation from the "Blue Banana" to the "Manufacturing Core," which is sectorally much narrower, within a very short period of only four years. Moreover, this change happened during a time of relative economic expansion in Europe, showing that the benefits of economic growth are not shared equally between the EU regions. Connected to this topic is the importance of manufacturing for economic growth in pre-COVID Europe, as suggested by the results. However, this manufacturing-based growth that was in place in the critical part of the EU between 2015 and 2019 seems to be in question in a time of energy crisis that undermines German competitiveness and threatens widespread deindustrialization of the "Core." This highlights the need to find a new growth model for Europe.
 
+\section{Acknowledgements} 
+This work was supported by the Grant Agency of the Czech Republic, Grant No. GACR no. 20-14990S. I would like to thank my supervisor, Jaromír Baxa, for his many insightful comments on this work.
 
 
 \newpage
@@ -560,6 +561,11 @@ We see the key policy implication of this work in comparing the club convergence
 \bibliography{References}
 \appendix
 \section{Appendix}
+\numberwithin{equation}{section}
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\setcounter{figure}{0}
 
 \subsection{Log $t$ test}
 
@@ -698,7 +704,7 @@ Severozapaden, Severen tsentralen, Severoiztochen, Yugoiztochen, Yuzhen tsentral
 
 
 \begin{table}[!htbp] \centering 
- \caption{Convergence club classification before merging} 
+ \caption{\textbf{Convergence club classification before merging.}} 
   \label{Table_clubs2} 
  \scalebox{0.85}{
 \begin{tabular}{@{\extracolsep{5pt}}lcll} 
@@ -722,7 +728,7 @@ Club 7 & 79 & -0.0963 & -0.968  \\
 
 
 \begin{table}[!htbp] \centering 
-    \caption{Convergence club classification before merging (2015) } \label{Table_clubs2_2015}
+    \caption{\textbf{Convergence club classification before merging (2015).}} \label{Table_clubs2_2015}
  \scalebox{0.85}{
 \begin{tabular}{@{\extracolsep{5pt}}lcll} 
 \\[-1.8ex]\hline 
@@ -750,7 +756,7 @@ Club 10 & 29 &  -0.09851   & -0.638 \\
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: čt, srp 10, 2023 - 22:04:17
 \begin{table}[!htbp] \centering 
-  \caption{Descriptive statistics of the main explanatory variables based on the 267 regions with neighbours (year 2008).} 
+  \caption{\textbf{Descriptive statistics of the main explanatory variables based on the 267 regions with neighbours (year 2008).}} 
   \label{descriptive_vars_filtered} 
 \begin{tabular}{@{\extracolsep{5pt}}lcccccc} 
 \\[-1.8ex]\hline 
@@ -806,7 +812,7 @@ Highest Neighbour Income & 10.262 & 0.411 & 9.159 & 10.071 & 10.513 & 11.826 \\
 \resizebox{0.75 \textwidth}{!}{\begin{minipage}{\textwidth}
   \captionsetup{justification=centering}
 
-  \caption{Regression results: Logistic regression with Sectoral and Human capital variables. Merged Convergence Clubs, FAMD imputation and robust standard errors.} 
+  \caption{\textbf{Regression results: Logistic regression with Sectoral and Human capital variables. Merged Convergence Clubs, FAMD imputation and robust standard errors.}} 
   \label{model_famd_filtered_spec1}
 \centering
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
@@ -860,7 +866,7 @@ Observations & 267 \\
 \begin{table}[!htbp] \centering 
 \resizebox{0.75 \textwidth}{!}{\begin{minipage}{\textwidth}
   \captionsetup{justification=centering}
-  \caption{Regression results: Logistic regression with with Geographic determinants. Merged Convergence Clubs, FAMD imputation and robust standard errors.} 
+  \caption{\textbf{Regression results: Logistic regression with with Geographic determinants. Merged Convergence Clubs, FAMD imputation and robust standard errors.}} 
   \label{model_famd_filtered_spec2}
 \centering
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
@@ -1140,7 +1146,7 @@ No. of Parameters 12\\
 \begin{figure}%
 \centering 
   {\includegraphics[scale = 0.5]{RTC_mer_overall.png} }
-  \caption{Average transition paths across merged convergence clubs. Diverging regions are represented by the highest transition curve.}
+  \caption{\textbf{Average transition paths across merged convergence clubs. Diverging regions are represented by the highest transition curve.}}
   \label{paths_overall}
   \end{figure}
 
@@ -1149,7 +1155,7 @@ No. of Parameters 12\\
 \begin{figure}%
     \centering
     \includegraphics[scale = 0.5]{RTC_mer_club2.png}
-    \caption{Transition paths for members of the second Club}
+    \caption{\textbf{Transition paths for members of the second Club.}}
     \label{paths2}
 \end{figure}
 
@@ -1157,14 +1163,14 @@ No. of Parameters 12\\
 \begin{figure}%
     \centering
     \includegraphics[scale = 0.5]{RTC_mer_club3.png}
-    \caption{Transition paths for members of the third Club}
+    \caption{\textbf{Transition paths for members of the third Club.}}
     \label{paths3}
 \end{figure}
 
 \begin{figure}%
     \centering
     \includegraphics[scale = 0.5]{RTC_mer_club4.png}
-    \caption{Transition paths for members of the forth Club}
+    \caption{\textbf{Transition paths for members of the forth Club}}
     \label{paths4}
 \end{figure}
 
