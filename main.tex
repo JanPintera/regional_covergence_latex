@@ -78,7 +78,6 @@ Previous empirical research has suggested several distinguishing patterns of con
 
 We investigate the dynamics of regional income convergence with the main focus on finding out whether there is a convergence among all the EU countries or whether there is evidence of convergence clubs, in which case certain regions converge to each other but without a tendency to overall convergence. The work uses a test by \citet{phillips2007transition}, which has been used to analyze convergence at various levels and, in the case of the EU regions, and usually led to the identification of several convergence clubs \citep{bartkowska2012regional, borsi2015evolution, von2017regional}. Its design is especially suited for investigating the club convergence that can be expected among EU regions because it allows for an endogenous spectrum of transitional behaviour among the regions. Furthermore, we employ logistic regression on the resulting convergence clubs, examining the contribution of a wide range of variables suggested in the economic growth literature to the current state of convergence in the EU.
 
-% Topic of this thesis
 This work contributes to the existing literature in two ways. First, it examines the economic convergence in the EU between two major crises (2008 - 2019) and how the convergence dynamic has changed in the last years before the COVID-related crisis. This period was previously not discussed in its entirety. Our approach allows us to compare two important states of the European economy, 2015 as the year by which most European countries reached the final recovery after the Great Recession in terms of output per capita, and 2019 as representing a point after a consistent growth period and just before the COVID outbreak. As its second contribution, this work attempts to draw a connection between various socioeconomic characteristics of the EU regions and their relative economic performance.
 
 Our results imply the club convergence hypothesis rather than general convergence among all regions. Next, we show that the convergence patterns evolved during the post-crisis recovery and the late 2010s expansion. Despite the continuing dominance of large agglomerations, there is a shift from a large continuous area of top-performing regions in the urbanized part of western Europe (the "Blue Banana") to a central European Manufacturing Core encompassing regions of both old and new EU member states and centered around southern Germany. We also found the worst-performing regions concentrated on both the eastern and southern peripheries.
@@ -88,7 +87,7 @@ The paper is structured as follows. Section 2 provides an overview of the method
 
 
 \section{Literature Review}\label{Methodology}
-\subsection{The convergence hypothesis and its empirical measurement}
+\subsection{The Convergence Hypothesis and its Empirical Measurement}
 
 \citet{eckey2007convergence} bring a comprehensive survey of methods used for convergence analysis and their empirical results. Probably the most common form of the convergence test is the $\beta$-convergence which departs from the transitional income dynamics equation \eqref{eq3} and, in its basic version, has the following form:
 \begin{equation} \label{eq1}\log y_{it} = a_{0} + (1 - a_{1})\log y_{it-1} + u_{it} \end{equation}
@@ -98,12 +97,11 @@ The regression above is often augmented by control variables, creating the condi
 
 The $\beta$-convergence is still widely used for estimating convergence. Recently, however, many other methods have been utilized to find convergence at both the state and regional level. The following part presents a brief description of some of these methods and their results.
   
-%Despite growing consensus pointing at existence of several economic clubs in Europe as opposed to any form of overall convergence \citep{cutrini2019economic, iammarino2017regional}. The empirical research about the converge has a long history, with most of the papers concentrating on pre 2008-crisis era \citep{cutrini2019economic}.  %NOTE: this is a new paragraph
 
 \citet{eckey2007convergence} conclude in their meta-analysis that most of the empirical convergence literature finds a significant, however rather small, convergence rate among European regions in the time span from 1980s to early 2000s. This finding is, however, not universal. Some papers find a high rate of convergence, whereas others fail to find convergence at all. This variety of conclusions is caused by differences in methods and in the number of regions included \citep{eckey2007convergence}. Other studies also suggest that the convergence pattern among the European regions was not stable in the post-war period. \citet{eckey2007convergence} note that several empirical works found that the convergence rate among the EU regions had diminished during the second half of the twentieth century. Others concluded that convergence in Europe appears to be U-shaped \citep{basile2001regional, geppert2008regional}. It seems to reach its lowest point around the beginning of the 1980s, accelerating again later on. \citet{geppert2008regional} also conclude that convergence is happening mainly at the national level, whereas regionally, we see a strengthening of metropolitan areas. From the newer contributions, \citet*{sme2012regional} find, using the $\beta$-convergence, only a weak tendency for regional convergence in the CEE countries, while in the case of some countries (for example, Poland), there was absolute divergence even when the capital region was excluded. %As far as the $\sigma$-convergence is concerned, the results seem as inconclusive as before, with conclusions differing based on the period and the sample of regions investigated \citep{eckey2007convergence}.
  
-\subsection{Club convergence} 
- Another concept of convergence that appears to gain popularity in recent years is club convergence. \citet{iammarino2017regional}, notes a reversal in inequality trend after 1990s with medium-sized manufacturing cities stagnating while large metropolitan areas being the most dynamic, he also defines 4 convergence clubs in EU based on their level of GDP per capita.  % TODO finish!!!!
+\subsection{Club Convergence} 
+ Another concept of convergence that appears to gain popularity in recent years is club convergence. \citet{iammarino2017regional}, notes a reversal in inequality trend after 1990s with medium-sized manufacturing cities stagnating while large metropolitan areas being the most dynamic, he also defines 4 convergence clubs in EU based on their level of GDP per capita.
  A standard model for testing this type of convergence is the so-called LISA (Local Indicators of Spatial Association). It is based on finding clusters of regions with a value of a variable measuring spatial association between the regions constantly above average for a longer period of time. The statistic defined by \citet{getis1992analysis} is then used as this variable most often. One of the distinguishing features of the LISA methodology is that it is aimed at finding clusters of neighbouring regions. As a result, this method often leads to large clusters along the south-north  (as found, for example, in \citet{baumont2003spatial}) or between new and old members states \citep{eckey2007convergence}. The evidence for regional clustering, however, goes beyond this specified methods such as LISA, \citet{cartone2021does} utilize quantile regression within the traditional  beta-convergence framework, they confirm convergence among European but with speed of convergence being faster at the lower quantiles, this support the evidence clustering among European regions. \citeauthor{cartone2021does}'s results are supported by \citet{panzera2022impact} who, while investigating impact of inequality on economic growth, find that for less developed regions the converge process is taking place at a faster rate than for more developed ones.
  
 Other approaches used for convergence clubs detection are kernel density estimation, Markov chains \citep{eckey2007convergence}, Bayesian \citep{fischer2015bayesian} and clustering methods \citep{maasoumi2008economic}. 
@@ -136,21 +134,6 @@ As often noted (\citet{dall2008regional}, \citet{magrini2004regional}, \citet{an
 \subsection{Results: Convergence versus Convergence Clubs}
 In this work, we analyzed 275 European NUTS 2 regions in the new and old member states of the EU. The log $t$ test and the associated clustering procedure were applied to the log GDP per capita (in PPS) between the years 2003 and 2019. To assess changes in the convergence patterns, we also estimate the convergence clubs in the sample until 2015. Data were obtained primarily from the "Regional statistics by NUTS classification" database on the Eurostat website.
 
-%\begin{table}[!htbp] \centering 
-% \caption{Log $t$ test result for all regions} 
-%  \label{Table_overall} 
-% \scalebox{0.85}{
-%\begin{tabular}{@{\extracolsep{5pt}}cll} 
-%\\[-1.8ex]\hline 
-%\hline \\[-1.8ex] 
-%\multicolumn{1}{c}{N} & \multicolumn{1}{c}{log(t)} & \multicolumn{1}{c}{t value}  \\ 
-%\hline \\[-1.8ex] 
-%277 &  -0.758  & -20.110 \\ 
-%\hline \\[-1.8ex]
-%\textit{Note:}  & \multicolumn{1}{r}{$^{**}$p$<$0.05} \\
-%\end{tabular}
-%}
-%\end{table}
 
 Applying the log $t$ test (Equation \ref{eq10} in the Appendix), the convergence among all regions of the EU is rejected with the log $t$ test statistic ($t_b$) equal to -20.110. Similar results are also obtained for the sample ending in 2015, with the test statistics equal to -20.576. Therefore, we can see that there is no overall convergence in the EU in the measured periods.
 
@@ -221,7 +204,7 @@ even Western Europe is not spared from this phenomenon (France or the UK can ser
 
 \begin{figure}[!htbp]%
 \centering
-\begin{subfigure}[c]{0.75\linewidth}
+\begin{subfigure}[c]{0.77\linewidth}
   {
   \includegraphics[width=\linewidth]{convergence_clubs2019.png}
     \caption{2019}
@@ -229,7 +212,7 @@ even Western Europe is not spared from this phenomenon (France or the UK can ser
   }
 \end{subfigure}
 \qquad
-\begin{subfigure}[c]{0.75\linewidth}
+\begin{subfigure}[c]{0.77\linewidth}
   \includegraphics[width=\linewidth]{map_4062.jpeg}
   \caption{2015}
   \label{clubs_graphic_2015}
@@ -255,7 +238,7 @@ On the other hand, there is a visible concentration of Club 4 and 5 regions alon
  
 After identifying the convergence clubs, we analyzed the factors that influence the economic performance of European regions using the ordered logistic regression framework.
 
-\subsection{Explanatory variables}
+\subsection{Explanatory Variables}
 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: so, lis 04, 2017 - 22:15:15
@@ -298,7 +281,7 @@ We used several explanatory variables for our analysis. We again worked with Eur
 
 In line with the literature, we included variables measuring the level of initial economic specialization in most of the NACE Rev.2 classification sectors.\footnote{Some of the sectors were omitted due to large number of missing observations, such as the Real Estate activities.} We defined the specialization as the share of the population employed in a given sector over the overall employment in the year 2008. We worked with six sectors spanning from Industry to Financial Services, as defined by NACE classification of economic activity, and the Business services. Business services are a dynamically developing subsector of the economy, shown by the previous research as potentially highly innovative and productivity promoting \citep{corrocher2014kibs}. Following \citet{guastella2015knowledge}, we defined the specialization in Business Services as the share of workers employed in Business services in total employed population. This work uses the definition of the business services given by Regulation of the European Parliament No. 298/2008. This regulation defines business services as consisting of five divisions and three groups of NACE Rev. 2 classification (divisions 62, 69, 71, 73 and 78 and groups 58.2, 63.1 and 70.2). The data are not available in such detail in the Eurostat database for the Business services, therefore whole divisions (58, 63 and 70) are used as reasonable approximations for the respective groups.
 
-We also added the log of initial (as of 2008) GDP per capital and investment as measures of initial economic conditions. We find these variables in line with the neoclassical growth theory \cite{iammarino2017regional}.% maybe see Cutrini or Iammarino's Solow comment
+We also added the log of initial (as of 2008) GDP per capital and investment as measures of initial economic conditions. We find these variables in line with the neoclassical growth theory \cite{iammarino2017regional}.
 
 Apart from the variable measuring sectoral specialization mentioned above, we also included variables measuring human capital developments in the regions. Furthermore, we experimented with several variables measuring the regional innovation level. We used the percentage of the population with tertiary education and the share of scientists in the active population as measures of regional population skill sophistication. We also included the average number of patent applications to the European Patent Organization per million inhabitants. 
 
@@ -526,8 +509,8 @@ Our work can be compared with previous ones such as \citet{cutrini2019economic},
 
 In summary, the results suggest that regional economic well-being is determined by a combination of initial sectoral specialization and its ability to create functional local innovation environments. A specific category then seems to be the large metropolitan areas, and the capitals in particular, with their strong position in finance. Our results show the importance of industrial concentration; we can also note that this variable seems to be more important than the initial level of economic development. Similarly, variables related to the development of the knowledge-based economy lead to a higher club membership.
 
-\subsection{Robustness checks}
-Apart from the variables included above, we also discuss two alternative specifications as a robustness check. The tables above incorporate a variable measuring the income of their richest neighbour; this results in a small number of regions (9) being filtered out as they have no neighbours.\footnote{These regions are Cyprus, Madeira, the Balearic Islands, Ceuta and Melilla, Canary Islands, Guadeloupe, Martinique and Malta} Table \ref{famd_selected_marginal} in the Appendix shows the alternative version of the regression exercise with all the regions but leaving out the richest neighbour variable. We can see that our results regarding sectoral specialization are kept. We can notice that specialization in manufacturing and the human capital variables are closer to significantly impacting the top club.
+\subsection{Robustness Checks}
+Apart from the variables included above, we also discuss two alternative specifications as a robustness check. The tables above incorporate a variable measuring the income of their richest neighbour; this results in a small number of regions (9) being filtered out as they have no neighbours.\footnote{These regions are Cyprus, Madeira, the Balearic Islands, Ceuta and Melilla, Canary Islands, Guadeloupe, Martinique and Malta.} Table \ref{famd_selected_marginal} in the Appendix shows the alternative version of the regression exercise with all the regions but leaving out the richest neighbour variable. We can see that our results regarding sectoral specialization are kept. We can notice that specialization in manufacturing and the human capital variables are closer to significantly impacting the top club.
 
 As a second robustness check, we include regression using the 2003 data in Table \ref{famd_selected_marginal_ecosys_robust_filtered}.  2008 was chosen as the starting year of our analysis in the previous section, as it is the year when the change in Eurostat's classification of economic activity from NACE Rev. 1.1 to NACE Rev. 2 was applied. Despite the imperfect correspondence in sectoral categories (e.g., the business services had to be dropped), the results in Table \ref{famd_selected_marginal_ecosys_robust_filtered} confirm the main conclusions reached so far. The only significant difference seems to be the less significant impact of capital and metro dummies on the top clubs.
 
@@ -1178,8 +1161,8 @@ No. of Parameters 12\\
 \section{Additional material}
 
 \subsection{Data availability}
-Replication package can be found using following to Mendeley data reference:
-"Pintera, Jan (2023), “Regional Convergence in the European Union - Factors of Growth Between the Great Recession and the COVID Crisis”, Mendeley Data, V1, doi: 10.17632/mcmkwc2394.1"
+The replication package can be found using Mendeley Data under DOI: 10.17632/mcmkwc2394.1.
+%"Pintera, Jan (2023), “Regional Convergence in the European Union - Factors of Growth Between the Great Recession and the COVID Crisis”, Mendeley Data, V1, doi: 10.17632/mcmkwc2394.1"
 
 \end{document}
 
